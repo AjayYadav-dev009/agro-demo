@@ -1,0 +1,1341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrotonomy - Aeroponic Tower Farms</title>
+    <!-- ============================================================
+                              LINKS
+    ============================================================ -->
+    <link rel="stylesheet" href="assets/src/output.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============================================================
+                              TOP BAR
+    ============================================================ -->
+    <div class="top-bar">
+      <div class="top-bar__inner flex items-center justify-end gap-4">
+        <div class="top-bar__social flex items-center gap-3">
+          <a href="#" aria-label="Facebook" class="top-bar__icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M22 5.8c-.6.3-1.3.5-2 .6.7-.4 1.3-1.1 1.6-1.9-.7.4-1.5.7-2.3.9A3.6 3.6 0 0 0 16.6 4c-2 0-3.6 1.6-3.6 3.6 0 .3 0 .6.1.8-3-.2-5.8-1.6-7.6-3.8-.3.5-.5 1.1-.5 1.8 0 1.2.6 2.3 1.6 2.9-.6 0-1.1-.2-1.6-.4v.1c0 1.7 1.2 3.2 2.9 3.5-.3.1-.6.1-.9.1-.2 0-.4 0-.7-.1.5 1.5 1.9 2.6 3.5 2.6A7.2 7.2 0 0 1 4 18.3 10.2 10.2 0 0 0 9.5 20c6.6 0 10.3-5.5 10.3-10.3v-.5c.7-.5 1.3-1.1 1.8-1.8z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.4 0 0 5.4 0 12.04c0 2.12.55 4.2 1.6 6.03L0 24l6.1-1.6a12 12 0 0 0 5.94 1.52h.01C18.6 23.92 24 18.52 24 11.96c0-3.2-1.25-6.2-3.48-8.48zm-8.48 18.4a9.92 9.92 0 0 1-5.05-1.39l-.36-.21-3.62.95.97-3.53-.24-.37A9.88 9.88 0 1 1 12.04 21.88zm5.45-7.42c-.3-.15-1.77-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.17.2-.35.23-.65.08a8.1 8.1 0 0 1-2.39-1.47 8.95 8.95 0 0 1-1.66-2.07c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.08-.8.38-.28.3-1.06 1.04-1.06 2.54 0 1.5 1.09 2.95 1.24 3.15.15.2 2.14 3.28 5.18 4.6.72.31 1.28.49 1.72.63.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm9.5 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- <div class="top-bar__lang flex items-center gap-2">
+                <span class="top-bar__flag">🇫🇷</span>
+                <span class="top-bar__flag">🇪🇸</span>
+                <span class="top-bar__flag">🇩🇪</span>
+                <span class="top-bar__flag">🇮🇹</span>
+                <span class="top-bar__flag">🇵🇹</span>
+                <span class="top-bar__lang-active">🌐 English</span>
+            </div> -->
+        <a href="admin/login.php" class="top-bar__login">🔑 Login</a>
+      </div>
+    </div>
+
+    <!-- ============================================================
+                              NAVBAR & MOBILE NAV
+    ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="site-header__inner flex items-center justify-between">
+        <a
+          href="index.html"
+          class="site-logo flex items-center gap-2"
+          aria-label="Agrotonomy Home"
+        >
+          <div class="site-logo__icon">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+              <path
+                d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                fill="#fff"
+                opacity="0.3"
+              />
+              <path
+                d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                fill="#ffb800"
+              />
+              <circle cx="20" cy="20" r="3" fill="#fff" />
+            </svg>
+          </div>
+          <span class="site-logo__text">AGROTONOMY</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="main-nav__list flex items-center gap-1">
+            <li><a href="index.html" class="main-nav__link">Home</a></li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-garden.html" class="main-nav__link"
+                >Tower Garden <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="tower-for-homes.html">For Homes</a></li>
+                <li><a href="tower-for-schools.html">For Schools</a></li>
+                <li><a href="tower-for-restaurants.html">For Restaurants</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-farms.html" class="main-nav__link"
+                >Tower Farms <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="small-farms.html">Small Farms</a></li>
+                <li><a href="large-farms.html">Large Farms</a></li>
+                <li><a href="greenhouse.html">Greenhouse</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="education.html" class="main-nav__link">Education</a>
+            </li>
+            <li>
+              <a href="resources.html" class="main-nav__link">Resources</a>
+            </li>
+            <li><a href="about.html" class="main-nav__link">About Us</a></li>
+            <li><a href="contact.html" class="main-nav__link">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- Mobile Nav -->
+      <nav
+        class="mobile-nav"
+        id="mobileNav"
+        aria-label="Mobile navigation"
+        aria-hidden="true"
+      >
+        <ul class="mobile-nav__list">
+          <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+          <li>
+            <a href="tower-garden.html" class="mobile-nav__link">Tower Garden</a>
+          </li>
+          <li>
+            <a href="tower-farms.html" class="mobile-nav__link">Tower Farms</a>
+          </li>
+          <li>
+            <a href="education.html" class="mobile-nav__link">Education</a>
+          </li>
+          <li>
+            <a href="resources.html" class="mobile-nav__link">Resources</a>
+          </li>
+          <li><a href="about.html" class="mobile-nav__link">About Us</a></li>
+          <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+<style>
+    /* ============================================================
+   EDUCATION HERO
+   ============================================================ */
+    .education-hero {
+        padding: var(--space-2xl) 0 var(--space-xl);
+        background: var(--color-white);
+    }
+
+    .education-hero__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        gap: var(--space-2xl);
+    }
+
+    .education-hero__text {
+        flex: 0 0 42%;
+        max-width: 42%;
+    }
+
+    .education-hero__image {
+        flex: 1;
+    }
+
+    .education-hero__image img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+    }
+
+    .education-hero__eyebrow {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-brand);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: var(--space-md);
+    }
+
+    .education-hero__headline {
+        font-size: var(--font-size-3xl);
+        font-weight: 800;
+        color: var(--color-text-dark);
+        line-height: 1.1;
+        margin-bottom: var(--space-md);
+    }
+
+    .education-hero__headline--accent {
+        color: var(--color-accent);
+    }
+
+    .education-hero__desc {
+        font-size: var(--font-size-base);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+        margin-bottom: var(--space-lg);
+        max-width: 400px;
+    }
+
+    .education-hero__features {
+        margin-bottom: var(--space-lg);
+    }
+
+    .education-hero__feature-icon {
+        width: 44px;
+        height: 44px;
+        margin-bottom: var(--space-sm);
+        border-radius: 50%;
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .education-hero__feature-title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 2px;
+    }
+
+    .education-hero__feature-desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        max-width: 140px;
+    }
+
+    /* ============================================================
+   STATS BANNER
+   ============================================================ */
+    .stats-banner {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+    }
+
+    .stats-banner__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+    }
+
+    .stats-grid {
+        background: var(--color-brand-dark);
+        background-image: radial-gradient(ellipse at center, var(--color-brand-mid), var(--color-brand-light));
+        border-radius: var(--radius-lg);
+        padding: var(--space-xl) var(--space-lg);
+    }
+
+    .stat-item {
+        text-align: center;
+        position: relative;
+        padding: 0 var(--space-sm);
+    }
+
+    .stat-item::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 10%;
+        bottom: 10%;
+        width: 1px;
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .stat-item:first-child::before {
+        display: none;
+    }
+
+    .stat-item__icon {
+        width: 44px;
+        height: 44px;
+        margin: 0 auto var(--space-sm);
+        border-radius: 50%;
+        border: 1.5px solid rgba(255, 255, 255, 0.4);
+        color: var(--color-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stat-item__label {
+        font-size: var(--font-size-xs);
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 6px;
+    }
+
+    .stat-item__value {
+        font-size: var(--font-size-2xl);
+        font-weight: 800;
+        color: var(--color-accent);
+        line-height: 1.1;
+        margin-bottom: 6px;
+    }
+
+    .stat-item__sublabel {
+        font-size: var(--font-size-xs);
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+    /* ============================================================
+   E-BOOKS SECTION
+   ============================================================ */
+    .ebooks-section {
+        padding: var(--space-xl) 0 var(--space-2xl);
+        background: var(--color-white);
+    }
+
+    .ebooks-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        gap: var(--space-2xl);
+    }
+
+    .ebooks-section__text {
+        flex: 0 0 26%;
+        max-width: 26%;
+    }
+
+    .ebooks-section__eyebrow {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-brand);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: var(--space-md);
+    }
+
+    .ebooks-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        line-height: 1.2;
+        margin-bottom: var(--space-md);
+    }
+
+    .ebooks-section__desc {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+        margin-bottom: var(--space-lg);
+    }
+
+    .ebooks-grid {
+        flex: 1;
+    }
+
+    .ebook-card {
+        text-align: left;
+    }
+
+    .ebook-card__photo {
+        aspect-ratio: 3 / 4;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        margin-bottom: var(--space-sm);
+        box-shadow: var(--shadow-card);
+    }
+
+    .ebook-card__photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+    }
+
+    .ebook-card:hover .ebook-card__photo img {
+        transform: scale(1.05);
+    }
+
+    .ebook-card__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        line-height: 1.3;
+        margin-bottom: 4px;
+    }
+
+    .ebook-card__price {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-price);
+    }
+
+    /* ============================================================
+   MASTERCLASS SECTION
+   ============================================================ */
+    .masterclass-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+    }
+
+    .masterclass-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        gap: var(--space-2xl);
+    }
+
+    .masterclass-section__image {
+        flex: 1;
+    }
+
+    .masterclass-section__image img {
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+    }
+
+    .masterclass-section__content {
+        flex: 0 0 40%;
+        max-width: 40%;
+        background: var(--color-off-white);
+        border-radius: var(--radius-lg);
+        padding: var(--space-xl);
+    }
+
+    .masterclass-section__eyebrow {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-brand);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: var(--space-md);
+    }
+
+    .masterclass-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-brand-dark);
+        margin-bottom: var(--space-md);
+        line-height: 1.2;
+    }
+
+    .masterclass-section__desc {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+        margin-bottom: var(--space-lg);
+    }
+
+    .masterclass-checklist {
+        margin-bottom: var(--space-xl);
+    }
+
+    .masterclass-checklist li {
+        display: flex;
+        align-items: center;
+        gap: var(--space-sm);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--color-text-dark);
+        margin-bottom: var(--space-sm);
+    }
+
+    .masterclass-checklist__icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--color-brand);
+        color: var(--color-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    /* ============================================================
+   WHAT YOU'LL LEARN (VALUES-STYLE GRID)
+   ============================================================ */
+    .learn-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+    }
+
+    .learn-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--space-xl) var(--space-lg);
+        background: var(--color-off-white);
+        border-radius: var(--radius-lg);
+    }
+
+    .learn-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-brand-dark);
+        text-align: center;
+        margin-bottom: var(--space-xl);
+    }
+
+    .learn-card {
+        text-align: center;
+        padding: 0 var(--space-sm);
+    }
+
+    .learn-card__icon {
+        width: 56px;
+        height: 56px;
+        margin: 0 auto var(--space-md);
+        border-radius: 50%;
+        background: var(--color-white);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .learn-card__title {
+        font-size: var(--font-size-md);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: var(--space-sm);
+    }
+
+    .learn-card__desc {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+        line-height: 1.6;
+    }
+
+    /* ============================================================
+   CTA BANNER
+   ============================================================ */
+    .cta-banner {
+        padding: var(--space-xl) 0 var(--space-2xl);
+        background: var(--color-white);
+    }
+
+    .cta-banner__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+    }
+
+    .cta-banner__box {
+        background: var(--color-brand-dark);
+        background-image: linear-gradient(120deg, var(--color-brand-dark), var(--color-brand-mid));
+        border-radius: var(--radius-lg);
+        padding: var(--space-2xl);
+        gap: var(--space-xl);
+    }
+
+    .cta-banner__title {
+        font-size: var(--font-size-xl);
+        font-weight: 800;
+        color: var(--color-white);
+        margin-bottom: var(--space-sm);
+    }
+
+    .cta-banner__desc {
+        font-size: var(--font-size-sm);
+        color: rgba(255, 255, 255, 0.8);
+        max-width: 420px;
+    }
+
+    .cta-banner__btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 11px 24px;
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--color-white);
+        border: 2px solid var(--color-accent);
+        white-space: nowrap;
+        transition: background var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+    }
+
+    .cta-banner__btn:hover {
+        background: var(--color-accent);
+        color: var(--color-brand-dark);
+        transform: translateY(-1px);
+    }
+
+    /* ============================================================
+   RESPONSIVE
+   ============================================================ */
+    @media (max-width: 1024px) {
+        .education-hero__headline {
+            font-size: var(--font-size-2xl);
+        }
+
+        .stat-item__value {
+            font-size: var(--font-size-xl);
+        }
+
+        .ebooks-grid.grid {
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .education-hero__inner {
+            flex-direction: row;
+        }
+
+        .education-hero__text {
+            flex: unset;
+            max-width: 100%;
+        }
+
+        .education-hero__image {
+            flex: unset;
+            width: 100%;
+        }
+
+        .ebooks-section__text {
+            flex: unset;
+            max-width: 100%;
+            margin-bottom: var(--space-lg);
+        }
+
+        .masterclass-section__inner {
+            flex-direction: row;
+        }
+
+        .masterclass-section__content {
+            flex: unset;
+            max-width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .stats-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            row-gap: var(--space-xl) !important;
+        }
+
+        .stat-item:nth-child(3)::before {
+            display: none;
+        }
+
+        .learn-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .ebooks-grid.grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .education-hero__headline {
+            font-size: var(--font-size-xl);
+        }
+
+        .education-hero__image img {
+            height: 260px;
+        }
+
+        .cta-banner__box {
+            flex-direction: column !important;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .education-hero__inner {
+            flex-direction: column-reverse;
+        }
+
+        .ebooks-section__inner {
+            flex-direction: column;
+        }
+
+        .masterclass-section__inner {
+            flex-direction: column-reverse;
+        }
+
+        .masterclass-section__content {
+            max-width: 100%;
+        }
+
+        .stats-grid {
+            grid-template-columns: 1fr !important;
+        }
+
+        .stat-item::before {
+            display: none;
+        }
+
+        .learn-grid {
+            grid-template-columns: 1fr !important;
+        }
+
+        .ebooks-grid.grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+</style>
+
+<main id="main-content">
+
+    <!-- ============================================================
+                            Hero Section
+    ============================================================ -->
+    <section class="education-hero" aria-label="Education introduction">
+        <div class="education-hero__inner flex items-center">
+            <div class="education-hero__text">
+                <p class="education-hero__eyebrow">Education</p>
+                <h1 class="education-hero__headline">Learn. Grow.<br /><span class="education-hero__headline--accent">Lead the Future.</span></h1>
+                <p class="education-hero__desc">Practical knowledge and expert guidance to help you build sustainable farms, smart businesses and a greener tomorrow.</p>
+
+                <div class="education-hero__features grid grid-cols-3 gap-4">
+                    <div class="education-hero__feature">
+                        <div class="education-hero__feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22v-9" />
+                                <path d="M12 13c0-4-3-6-7-6 0 4 3 6 7 6z" />
+                                <path d="M12 13c0-5 3-8 8-8 0 5-3 8-8 8z" />
+                            </svg>
+                        </div>
+                        <p class="education-hero__feature-title">Expert Led</p>
+                        <p class="education-hero__feature-desc">Learn from industry experts and growers</p>
+                    </div>
+
+                    <div class="education-hero__feature">
+                        <div class="education-hero__feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3" />
+                            </svg>
+                        </div>
+                        <p class="education-hero__feature-title">Practical Learning</p>
+                        <p class="education-hero__feature-desc">Real world insights you can apply</p>
+                    </div>
+
+                    <div class="education-hero__feature">
+                        <div class="education-hero__feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                            </svg>
+                        </div>
+                        <p class="education-hero__feature-title">Learn Anytime</p>
+                        <p class="education-hero__feature-desc">Access resources anytime, anywhere</p>
+                    </div>
+                </div>
+
+                <a href="#ebooks" class="btn btn--primary">
+                    Explore All Resources
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="education-hero__image">
+                <img src="https://images.unsplash.com/photo-1761839257946-4616bcfafec7?w=900&amp;q=80" alt="A farmer tending to rows of young plants inside a modern greenhouse" loading="eager" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                              Stat Banner
+    ============================================================ -->
+    <section class="stats-banner" aria-label="Education statistics">
+        <div class="stats-banner__inner">
+            <div class="stats-grid grid grid-cols-2 gap-6 md:grid-cols-4">
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10 12 5 2 10l10 5 10-5z" />
+                            <path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">10K+</p>
+                    <p class="stat-item__label">Learners</p>
+                    <p class="stat-item__sublabel">Worldwide</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">25+</p>
+                    <p class="stat-item__label">E-Books</p>
+                    <p class="stat-item__sublabel">And Growing</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <polygon points="10 8 16 12 10 16 10 8" fill="currentColor" stroke="none" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">50+</p>
+                    <p class="stat-item__label">Masterclasses</p>
+                    <p class="stat-item__sublabel">Live &amp; Recorded</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">100%</p>
+                    <p class="stat-item__label">Worldwide</p>
+                    <p class="stat-item__sublabel">Learning Community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                              E-Books
+    ============================================================ -->
+    <section class="ebooks-section" id="ebooks" aria-label="E-Books">
+        <div class="ebooks-section__inner flex items-start gap-6">
+            <div class="ebooks-section__text">
+                <p class="ebooks-section__eyebrow">E-Books</p>
+                <h2 class="ebooks-section__title">Knowledge at Your Fingertips</h2>
+                <p class="ebooks-section__desc">In-depth guides and practical manuals covering every aspect of vertical farming, greenhouse management and sustainability.</p>
+                <a href="#" class="btn btn--dark">
+                    View All E-Books
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="ebooks-grid grid grid-cols-2 gap-4 md:grid-cols-5">
+                <article class="ebook-card">
+                    <div class="ebook-card__photo">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&amp;q=80" alt="A young seedling sprouting from soil in a planting tray" loading="lazy" />
+                    </div>
+                    <p class="ebook-card__title">Aeroponic Tower Cultivation Guide</p>
+                    <p class="ebook-card__price">$49.00</p>
+                </article>
+
+                <article class="ebook-card">
+                    <div class="ebook-card__photo">
+                        <img src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=500&amp;q=80" alt="Rows of leafy greens growing inside a vertical farming greenhouse" loading="lazy" />
+                    </div>
+                    <p class="ebook-card__title">Vertical Farming with Aeroponics</p>
+                    <p class="ebook-card__price">$39.00</p>
+                </article>
+
+                <article class="ebook-card">
+                    <div class="ebook-card__photo">
+                        <img src="https://images.unsplash.com/photo-1719760665423-c07ba150397b?w=500&amp;q=80" alt="A row of climate-controlled greenhouses filled with plants" loading="lazy" />
+                    </div>
+                    <p class="ebook-card__title">Climate-Controlled Greenhouses</p>
+                    <p class="ebook-card__price">$29.00</p>
+                </article>
+
+                <article class="ebook-card">
+                    <div class="ebook-card__photo">
+                        <img src="https://images.unsplash.com/photo-1761839257946-4616bcfafec7?w=500&amp;q=80" alt="A grower tending to plants while planning a tower farm site" loading="lazy" />
+                    </div>
+                    <p class="ebook-card__title">Site &amp; Planning for Tower Farms</p>
+                    <p class="ebook-card__price">$29.00</p>
+                </article>
+
+                <article class="ebook-card">
+                    <div class="ebook-card__photo">
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&amp;q=80" alt="A warmly lit library shelf, symbolic of in-depth farming research" loading="lazy" />
+                    </div>
+                    <p class="ebook-card__title">Crop Yields: Aeroponic Tower Farming Output</p>
+                    <p class="ebook-card__price">$15.00</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                              Masterclass
+    ============================================================ -->
+    <section class="masterclass-section" aria-label="Masterclasses">
+        <div class="masterclass-section__inner flex items-center gap-6">
+            <div class="masterclass-section__image">
+                <img src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=900&amp;q=80" alt="Rows of leafy greens growing inside an Agrotonomy greenhouse, used to illustrate a tower farm masterclass" loading="lazy" />
+            </div>
+
+            <div class="masterclass-section__content">
+                <p class="masterclass-section__eyebrow">Masterclass</p>
+                <h2 class="masterclass-section__title">Learn from the Experts</h2>
+                <p class="masterclass-section__desc">Join our masterclasses and get step-by-step training, proven strategies and insider tips to start and scale your own farm.</p>
+
+                <ul class="masterclass-checklist">
+                    <li>
+                        <span class="masterclass-checklist__icon" aria-hidden="true">
+                            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                        </span>
+                        Live &amp; Recorded Sessions
+                    </li>
+                    <li>
+                        <span class="masterclass-checklist__icon" aria-hidden="true">
+                            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                        </span>
+                        Step-by-Step Demonstrations
+                    </li>
+                    <li>
+                        <span class="masterclass-checklist__icon" aria-hidden="true">
+                            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                        </span>
+                        Q&amp;A with Industry Experts
+                    </li>
+                    <li>
+                        <span class="masterclass-checklist__icon" aria-hidden="true">
+                            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                        </span>
+                        Certificate of Completion
+                    </li>
+                </ul>
+
+                <a href="#" class="btn btn--dark">
+                    Explore Masterclasses
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                              What You'll Learn
+    ============================================================ -->
+    <section class="learn-section" aria-label="What you'll learn">
+        <div class="learn-section__inner">
+            <h2 class="learn-section__title">What You'll Learn</h2>
+            <div class="learn-grid grid grid-cols-2 gap-6 md:grid-cols-6">
+                <article class="learn-card">
+                    <div class="learn-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22v-9" />
+                            <path d="M12 13c0-4-3-6-7-6 0 4 3 6 7 6z" />
+                            <path d="M12 13c0-5 3-8 8-8 0 5-3 8-8 8z" />
+                        </svg>
+                    </div>
+                    <h3 class="learn-card__title">Farming Systems</h3>
+                    <p class="learn-card__desc">Understand vertical, hydroponic &amp; aeroponic farming systems.</p>
+                </article>
+
+                <article class="learn-card">
+                    <div class="learn-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13z" />
+                        </svg>
+                    </div>
+                    <h3 class="learn-card__title">Water &amp; Nutrients</h3>
+                    <p class="learn-card__desc">Learn efficient water usage and nutrient management.</p>
+                </article>
+
+                <article class="learn-card">
+                    <div class="learn-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 12a8 8 0 1 1-8-8 6 6 0 0 0 8 8z" />
+                        </svg>
+                    </div>
+                    <h3 class="learn-card__title">Climate Control</h3>
+                    <p class="learn-card__desc">Master environment control for optimal yields.</p>
+                </article>
+
+                <article class="learn-card">
+                    <div class="learn-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 7v10M9 9.5c0-1.4 1.3-2.5 3-2.5s3 1.1 3 2.5-1.3 2-3 2.5-3 1.1-3 2.5 1.3 2.5 3 2.5 3-1.1 3-2.5" />
+                        </svg>
+                    </div>
+                    <h3 class="learn-card__title">Business &amp; Planning</h3>
+                    <p class="learn-card__desc">Plan, build and scale a profitable agri-business.</p>
+                </article>
+
+                <article class="learn-card">
+                    <div class="learn-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 3v18h18" />
+                            <path d="M18 17V9M13 17V5M8 17v-4" />
+                        </svg>
+                    </div>
+                    <h3 class="learn-card__title">Sustainability</h3>
+                    <p class="learn-card__desc">Adopt sustainable practices for long-term impact.</p>
+                </article>
+
+                <article class="learn-card">
+                    <div class="learn-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3 class="learn-card__title">Community</h3>
+                    <p class="learn-card__desc">Be part of a global community of future growers.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                              CTA Banner
+    ============================================================ -->
+    <section class="cta-banner" aria-label="Start learning today">
+        <div class="cta-banner__inner">
+            <div class="cta-banner__box flex items-center justify-between">
+                <div>
+                    <h2 class="cta-banner__title">Start Your Learning Journey Today</h2>
+                    <p class="cta-banner__desc">Whether you're a beginner or an experienced grower, we have the right resources to help you grow better.</p>
+                </div>
+                <a href="#ebooks" class="cta-banner__btn">
+                    Browse All Resources
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                              Footer Stat Banner
+    ============================================================ -->
+    <section class="stats-banner" aria-label="Community statistics">
+        <div class="stats-banner__inner">
+            <div class="stats-grid grid grid-cols-2 gap-6 md:grid-cols-4">
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">10K+</p>
+                    <p class="stat-item__label">Happy Learners</p>
+                    <p class="stat-item__sublabel">And Growing</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">75+</p>
+                    <p class="stat-item__label">Countries Reached</p>
+                    <p class="stat-item__sublabel">And Expanding</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 15 9 22 9.5 16.5 14 18.5 21 12 17 5.5 21 7.5 14 2 9.5 9 9 12 2" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">4.8/5</p>
+                    <p class="stat-item__label">Average Rating</p>
+                    <p class="stat-item__sublabel">From Our Learners</p>
+                </div>
+
+                <div class="stat-item">
+                    <div class="stat-item__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+                            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3ZM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3Z" />
+                        </svg>
+                    </div>
+                    <p class="stat-item__value">24/7</p>
+                    <p class="stat-item__label">Learner Support</p>
+                    <p class="stat-item__sublabel">Whenever You Need Us</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script>
+    function initStatCounters() {
+        const statValues = document.querySelectorAll(".stat-item__value");
+        if (!statValues.length) return;
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        animateStatValue(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.4
+            },
+        );
+
+        statValues.forEach((el) => observer.observe(el));
+    }
+
+    function animateStatValue(el) {
+        const rawText = el.textContent.trim();
+        const match = rawText.match(/^(\d+)(.*)$/);
+        if (!match) return;
+
+        const targetNum = parseInt(match[1], 10);
+        const suffix = match[2];
+        const duration = 1200;
+        const startTime = performance.now();
+
+        function step(now) {
+            const progress = Math.min((now - startTime) / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            const current = Math.round(targetNum * eased);
+            el.textContent = `${current}${suffix}`;
+
+            if (progress < 1) {
+                requestAnimationFrame(step);
+            } else {
+                el.textContent = rawText;
+            }
+        }
+
+        requestAnimationFrame(step);
+    }
+
+    document.addEventListener("DOMContentLoaded", initStatCounters);
+</script>
+
+
+
+
+
+
+
+
+
+       <!-- ============================================================
+                               Newsletter
+        ============================================================ -->
+    <section class="newsletter-section" aria-label="Newsletter signup">
+      <div class="newsletter-section__inner flex items-center gap-8">
+        <div class="newsletter-section__image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=75"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div class="newsletter-section__content">
+          <h2 class="newsletter-section__title">Sign up to our newsletter</h2>
+          <p class="newsletter-section__desc">
+            Get our updates straight to your inbox.
+          </p>
+          <form class="newsletter-form flex items-center gap-2" novalidate>
+            <label for="newsletter-email" class="sr-only"
+              >Your email address</label
+            >
+            <input
+              type="email"
+              id="newsletter-email"
+              class="newsletter-form__input"
+              placeholder="Enter your email"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn--subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+                           Footer Section   
+    ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__top">
+        <div class="site-footer__top-inner flex items-center justify-between">
+          <a
+            href="index.php"
+            class="site-logo flex items-center gap-2"
+            aria-label="Agrotonomy Home"
+          >
+            <div class="site-logo__icon">
+              <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+                <path
+                  d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                  fill="#fff"
+                  opacity="0.3"
+                />
+                <path
+                  d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                  fill="#ffb800"
+                />
+                <circle cx="20" cy="20" r="3" fill="#fff" />
+              </svg>
+            </div>
+            <span class="site-logo__text site-logo__text--footer"
+              >AGROTONOMY</span
+            >
+          </a>
+          <div class="site-footer__social flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <rect
+                  x="2"
+                  y="2"
+                  width="20"
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="white" /></svg
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              aria-label="TikTok"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.33 6.33 0 006.33-6.33V7.5a4.83 4.83 0 01-2.66-.81z"
+                /></svg
+            ></a>
+            <a
+              href="mailto:info@agrotonomy.com"
+              target="_blank"
+              aria-label="email"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <polyline
+                  points="22,6 12,13 2,6"
+                  stroke="white"
+                  stroke-width="2"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__nav-bar">
+        <div
+          class="site-footer__nav-inner flex items-center justify-center flex-wrap gap-4"
+        >
+          <a href="index.php" class="footer-link">Home</a>
+          <a href="tower-garden.php" class="footer-link">Tower Garden</a>
+          <a href="tower-farms.php" class="footer-link">Tower Farms</a>
+          <a href="education.php" class="footer-link">Education</a>
+          <a href="resources.php" class="footer-link">Resources</a>
+          <a href="about.php" class="footer-link">About Us</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="site-footer__copyright">
+        <p>© Agrotonomy Corp 2025 · All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+                            Script Links  
+    ============================================================ -->
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1779 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrotonomy - Aeroponic Tower Farms</title>
+    <!-- ============================================================
+                              LINKS
+    ============================================================ -->
+    <link rel="stylesheet" href="assets/src/output.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============================================================
+                              TOP BAR
+    ============================================================ -->
+    <div class="top-bar">
+      <div class="top-bar__inner flex items-center justify-end gap-4">
+        <div class="top-bar__social flex items-center gap-3">
+          <a href="#" aria-label="Facebook" class="top-bar__icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M22 5.8c-.6.3-1.3.5-2 .6.7-.4 1.3-1.1 1.6-1.9-.7.4-1.5.7-2.3.9A3.6 3.6 0 0 0 16.6 4c-2 0-3.6 1.6-3.6 3.6 0 .3 0 .6.1.8-3-.2-5.8-1.6-7.6-3.8-.3.5-.5 1.1-.5 1.8 0 1.2.6 2.3 1.6 2.9-.6 0-1.1-.2-1.6-.4v.1c0 1.7 1.2 3.2 2.9 3.5-.3.1-.6.1-.9.1-.2 0-.4 0-.7-.1.5 1.5 1.9 2.6 3.5 2.6A7.2 7.2 0 0 1 4 18.3 10.2 10.2 0 0 0 9.5 20c6.6 0 10.3-5.5 10.3-10.3v-.5c.7-.5 1.3-1.1 1.8-1.8z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.4 0 0 5.4 0 12.04c0 2.12.55 4.2 1.6 6.03L0 24l6.1-1.6a12 12 0 0 0 5.94 1.52h.01C18.6 23.92 24 18.52 24 11.96c0-3.2-1.25-6.2-3.48-8.48zm-8.48 18.4a9.92 9.92 0 0 1-5.05-1.39l-.36-.21-3.62.95.97-3.53-.24-.37A9.88 9.88 0 1 1 12.04 21.88zm5.45-7.42c-.3-.15-1.77-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.17.2-.35.23-.65.08a8.1 8.1 0 0 1-2.39-1.47 8.95 8.95 0 0 1-1.66-2.07c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.08-.8.38-.28.3-1.06 1.04-1.06 2.54 0 1.5 1.09 2.95 1.24 3.15.15.2 2.14 3.28 5.18 4.6.72.31 1.28.49 1.72.63.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm9.5 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- <div class="top-bar__lang flex items-center gap-2">
+                <span class="top-bar__flag">🇫🇷</span>
+                <span class="top-bar__flag">🇪🇸</span>
+                <span class="top-bar__flag">🇩🇪</span>
+                <span class="top-bar__flag">🇮🇹</span>
+                <span class="top-bar__flag">🇵🇹</span>
+                <span class="top-bar__lang-active">🌐 English</span>
+            </div> -->
+        <a href="admin/login.php" class="top-bar__login">🔑 Login</a>
+      </div>
+    </div>
+
+    <!-- ============================================================
+                              NAVBAR & MOBILE NAV
+    ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="site-header__inner flex items-center justify-between">
+        <a
+          href="index.html"
+          class="site-logo flex items-center gap-2"
+          aria-label="Agrotonomy Home"
+        >
+          <div class="site-logo__icon">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+              <path
+                d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                fill="#fff"
+                opacity="0.3"
+              />
+              <path
+                d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                fill="#ffb800"
+              />
+              <circle cx="20" cy="20" r="3" fill="#fff" />
+            </svg>
+          </div>
+          <span class="site-logo__text">AGROTONOMY</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="main-nav__list flex items-center gap-1">
+            <li><a href="index.html" class="main-nav__link">Home</a></li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-garden.html" class="main-nav__link"
+                >Tower Garden <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="tower-for-homes.html">For Homes</a></li>
+                <li><a href="tower-for-schools.html">For Schools</a></li>
+                <li><a href="tower-for-restaurants.html">For Restaurants</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-farms.html" class="main-nav__link"
+                >Tower Farms <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="small-farms.html">Small Farms</a></li>
+                <li><a href="large-farms.html">Large Farms</a></li>
+                <li><a href="greenhouse.html">Greenhouse</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="education.html" class="main-nav__link">Education</a>
+            </li>
+            <li>
+              <a href="resources.html" class="main-nav__link">Resources</a>
+            </li>
+            <li><a href="about.html" class="main-nav__link">About Us</a></li>
+            <li><a href="contact.html" class="main-nav__link">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- Mobile Nav -->
+      <nav
+        class="mobile-nav"
+        id="mobileNav"
+        aria-label="Mobile navigation"
+        aria-hidden="true"
+      >
+        <ul class="mobile-nav__list">
+          <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+          <li>
+            <a href="tower-garden.html" class="mobile-nav__link">Tower Garden</a>
+          </li>
+          <li>
+            <a href="tower-farms.html" class="mobile-nav__link">Tower Farms</a>
+          </li>
+          <li>
+            <a href="education.html" class="mobile-nav__link">Education</a>
+          </li>
+          <li>
+            <a href="resources.html" class="mobile-nav__link">Resources</a>
+          </li>
+          <li><a href="about.html" class="mobile-nav__link">About Us</a></li>
+          <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <style>
+      /* ============================================================
+   TOWER GARDENS HERO
+   ============================================================ */
+      .tower-hero {
+        padding: var(--space-2xl) 0 var(--space-xl);
+        background: var(--color-white);
+      }
+
+      .tower-hero__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        gap: var(--space-2xl);
+      }
+
+      .tower-hero__text {
+        flex: 0 0 40%;
+        max-width: 40%;
+      }
+
+      .tower-hero__image {
+        flex: 1;
+      }
+
+      .tower-hero__image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+      }
+
+      .tower-hero__eyebrow {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-brand);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: var(--space-md);
+      }
+
+      .tower-hero__headline {
+        font-size: var(--font-size-3xl);
+        font-weight: 800;
+        color: var(--color-text-dark);
+        line-height: 1.1;
+        margin-bottom: var(--space-md);
+      }
+
+      .tower-hero__headline--accent {
+        color: var(--color-accent);
+      }
+
+      .tower-hero__desc {
+        font-size: var(--font-size-base);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+        margin-bottom: var(--space-lg);
+        max-width: 400px;
+      }
+
+      .tower-hero__features {
+        margin-bottom: var(--space-lg);
+      }
+
+      .tower-hero__feature-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: var(--space-sm);
+        border-radius: 50%;
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .tower-hero__feature-title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 2px;
+      }
+
+      .tower-hero__feature-desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        max-width: 130px;
+      }
+
+      /* ============================================================
+   BENEFITS STRIP
+   ============================================================ */
+      .benefits-strip {
+        padding: var(--space-xl) 0;
+        background: var(--color-white);
+      }
+
+      .benefits-strip__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--space-lg);
+        background: var(--color-light-gray);
+        border-radius: var(--radius-lg);
+      }
+
+      .benefit-item {
+        display: flex;
+        align-items: flex-start;
+        gap: var(--space-md);
+      }
+
+      .benefit-item__icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--color-white);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .benefit-item__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 2px;
+      }
+
+      .benefit-item__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        line-height: 1.4;
+      }
+
+      /* ============================================================
+   SEGMENT SECTIONS (RESIDENTIAL / COMMERCIAL)
+   ============================================================ */
+      .segment-section {
+        padding: var(--space-xl) 0;
+        background: var(--color-white);
+      }
+
+      .segment-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--space-2xl) var(--space-lg);
+        background: var(--color-off-white);
+        border-radius: var(--radius-lg);
+      }
+
+      .segment-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 800;
+        color: var(--color-brand-dark);
+        text-align: center;
+        margin-bottom: var(--space-sm);
+        letter-spacing: 0.01em;
+      }
+
+      .segment-section__desc {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+        text-align: center;
+        max-width: 620px;
+        margin: 0 auto var(--space-xl);
+        line-height: 1.7;
+      }
+
+      .segment-section__body {
+        gap: var(--space-xl);
+      }
+
+      .segment-feature-list {
+        flex: 0 0 27%;
+        max-width: 27%;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+      }
+
+      .segment-feature {
+        display: flex;
+        align-items: flex-start;
+        gap: var(--space-md);
+      }
+
+      .segment-feature__icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .segment-feature__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 2px;
+      }
+
+      .segment-feature__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        line-height: 1.5;
+      }
+
+      .segment-section__image {
+        flex: 1;
+      }
+
+      .segment-section__image img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        border-radius: var(--radius-md);
+      }
+
+      .segment-panel {
+        flex: 0 0 27%;
+        max-width: 27%;
+        background: var(--color-white);
+        border-radius: var(--radius-md);
+        padding: var(--space-lg);
+        box-shadow: var(--shadow-card);
+      }
+
+      .segment-panel__header {
+        display: flex;
+        align-items: center;
+        gap: var(--space-sm);
+        margin-bottom: var(--space-md);
+      }
+
+      .segment-panel__icon {
+        width: 34px;
+        height: 34px;
+        border-radius: var(--radius-sm);
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .segment-panel__title {
+        font-size: var(--font-size-md);
+        font-weight: 700;
+        color: var(--color-text-dark);
+      }
+
+      .segment-panel__list {
+        margin-bottom: var(--space-lg);
+      }
+
+      .segment-panel__list li {
+        display: flex;
+        align-items: center;
+        gap: var(--space-sm);
+        font-size: var(--font-size-sm);
+        color: var(--color-text-dark);
+        margin-bottom: var(--space-sm);
+      }
+
+      .segment-panel__check {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background: var(--color-brand);
+        color: var(--color-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      /* ============================================================
+   WHY CHOOSE SECTION
+   ============================================================ */
+      .why-section {
+        padding: var(--space-xl) 0;
+        background: var(--color-white);
+      }
+
+      .why-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--space-xl) var(--space-lg);
+        background: var(--color-off-white);
+        border-radius: var(--radius-lg);
+      }
+
+      .why-section__title {
+        font-size: var(--font-size-lg);
+        font-weight: 700;
+        color: var(--color-brand-dark);
+        text-align: center;
+        margin-bottom: var(--space-xl);
+        letter-spacing: 0.01em;
+      }
+
+      .why-card {
+        text-align: center;
+        padding: 0 var(--space-sm);
+      }
+
+      .why-card__icon {
+        width: 52px;
+        height: 52px;
+        margin: 0 auto var(--space-md);
+        border-radius: 50%;
+        background: var(--color-white);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .why-card__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 6px;
+      }
+
+      .why-card__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        line-height: 1.5;
+      }
+
+      /* ============================================================
+   FINAL CTA BANNER
+   ============================================================ */
+      .tower-cta {
+        padding: var(--space-xl) 0 var(--space-2xl);
+        background: var(--color-white);
+      }
+
+      .tower-cta__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .tower-cta__box {
+        background: var(--color-brand-dark);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        gap: var(--space-xl);
+      }
+
+      .tower-cta__image {
+        flex: 0 0 220px;
+      }
+
+      .tower-cta__image img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: var(--radius-md);
+        display: block;
+      }
+
+      .tower-cta__text {
+        flex: 1;
+      }
+
+      .tower-cta__title {
+        font-size: var(--font-size-lg);
+        font-weight: 800;
+        color: var(--color-white);
+        margin-bottom: var(--space-sm);
+      }
+
+      .tower-cta__desc {
+        font-size: var(--font-size-sm);
+        color: rgba(255, 255, 255, 0.8);
+        max-width: 420px;
+      }
+
+      .tower-cta__actions {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-sm);
+      }
+
+      .tower-cta__btn-primary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 11px 22px;
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--color-brand-dark);
+        background: var(--color-accent);
+        white-space: nowrap;
+        transition:
+          background var(--transition-fast),
+          transform var(--transition-fast);
+      }
+
+      .tower-cta__btn-primary:hover {
+        background: #ffb84d;
+        transform: translateY(-1px);
+      }
+
+      .tower-cta__btn-outline {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 11px 22px;
+        border-radius: var(--radius-sm);
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--color-white);
+        border: 1.5px solid rgba(255, 255, 255, 0.5);
+        white-space: nowrap;
+        transition:
+          background var(--transition-fast),
+          transform var(--transition-fast);
+      }
+
+      .tower-cta__btn-outline:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(-1px);
+      }
+
+      /* ============================================================
+   RESPONSIVE
+   ============================================================ */
+      @media (max-width: 1024px) {
+        .tower-hero__headline {
+          font-size: var(--font-size-2xl);
+        }
+
+        .benefits-strip__inner.grid {
+          grid-template-columns: repeat(3, 1fr) !important;
+        }
+
+        .why-grid.grid {
+          grid-template-columns: repeat(3, 1fr) !important;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .tower-hero__inner {
+          flex-direction: row;
+        }
+
+        .tower-hero__text {
+          flex: unset;
+          max-width: 100%;
+        }
+
+        .tower-hero__image {
+          flex: unset;
+          width: 100%;
+        }
+
+        .segment-section__body {
+          flex-direction: column;
+        }
+
+        .segment-feature-list,
+        .segment-panel {
+          flex: unset;
+          max-width: 100%;
+        }
+
+        .segment-section__body--reverse {
+          flex-direction: column-reverse;
+        }
+
+        .tower-cta__box {
+          flex-direction: column;
+          text-align: center;
+          padding: var(--space-xl);
+        }
+
+        .tower-cta__image {
+          flex: unset;
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .benefits-strip__inner.grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .why-grid.grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .tower-hero__headline {
+          font-size: var(--font-size-xl);
+        }
+
+        .tower-hero__image img {
+          height: 260px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .tower-hero__inner {
+          flex-direction: column-reverse;
+        }
+
+        .benefits-strip__inner.grid,
+        .why-grid.grid {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    </style>
+
+    <main id="main-content">
+      <!-- ============================================================
+                            Hero Section
+    ============================================================ -->
+      <section class="tower-hero" aria-label="Tower gardens introduction">
+        <div class="tower-hero__inner flex items-center">
+          <div class="tower-hero__text">
+            <p class="tower-hero__eyebrow">Tower Gardens</p>
+            <h1 class="tower-hero__headline">
+              Big Gardens.<br />Small Footprint.<br /><span
+                class="tower-hero__headline--accent"
+                >Bigger Impact.</span
+              >
+            </h1>
+            <p class="tower-hero__desc">
+              Our vertical tower gardens help you grow more food in less space
+              with less water, less effort and all year round.
+            </p>
+
+            <div class="tower-hero__features grid grid-cols-3 gap-4">
+              <div class="tower-hero__feature">
+                <div class="tower-hero__feature-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 22v-9" />
+                    <path d="M12 13c0-4-3-6-7-6 0 4 3 6 7 6z" />
+                    <path d="M12 13c0-5 3-8 8-8 0 5-3 8-8 8z" />
+                  </svg>
+                </div>
+                <p class="tower-hero__feature-title">Space Saving</p>
+                <p class="tower-hero__feature-desc">
+                  Up to 90% less space required
+                </p>
+              </div>
+
+              <div class="tower-hero__feature">
+                <div class="tower-hero__feature-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13z" />
+                  </svg>
+                </div>
+                <p class="tower-hero__feature-title">Water Efficient</p>
+                <p class="tower-hero__feature-desc">
+                  Uses up to 95% less water
+                </p>
+              </div>
+
+              <div class="tower-hero__feature">
+                <div class="tower-hero__feature-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 2v4" />
+                    <path d="M12 18v4" />
+                    <path d="m4.93 4.93 2.83 2.83" />
+                    <path d="m16.24 16.24 2.83 2.83" />
+                    <path d="M2 12h4" />
+                    <path d="M18 12h4" />
+                    <path d="m4.93 19.07 2.83-2.83" />
+                    <path d="m16.24 7.76 2.83-2.83" />
+                  </svg>
+                </div>
+                <p class="tower-hero__feature-title">High Yield</p>
+                <p class="tower-hero__feature-desc">
+                  Grow more in every harvest
+                </p>
+              </div>
+            </div>
+
+            <a href="#segments" class="btn btn--dark">
+              Explore Tower Gardens
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="tower-hero__image">
+            <img
+              src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=900&amp;q=80"
+              alt="Rows of vertical tower garden planters filled with leafy greens under a pergola"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                            Benefits Strip
+    ============================================================ -->
+      <section class="benefits-strip" aria-label="Tower garden benefits">
+        <div
+          class="benefits-strip__inner grid grid-cols-2 gap-6 md:grid-cols-5"
+        >
+          <div class="benefit-item">
+            <div class="benefit-item__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 22v-9" />
+                <path d="M12 13c0-4-3-6-7-6 0 4 3 6 7 6z" />
+                <path d="M12 13c0-5 3-8 8-8 0 5-3 8-8 8z" />
+              </svg>
+            </div>
+            <div>
+              <p class="benefit-item__title">Grow More</p>
+              <p class="benefit-item__desc">Higher yields in less space</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-item__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13z" />
+              </svg>
+            </div>
+            <div>
+              <p class="benefit-item__title">Use Less</p>
+              <p class="benefit-item__desc">95% less water than soil farming</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-item__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M7 20h10" />
+                <path d="M10 20c0-4 1.5-4.5 1.5-8.5" />
+                <path d="M12 3c3 2 4 4.5 4 7.5A4 4 0 0 1 8 12c0-4.5 2-6 4-9z" />
+              </svg>
+            </div>
+            <div>
+              <p class="benefit-item__title">Eat Fresh</p>
+              <p class="benefit-item__desc">
+                Fresh, healthy food at your fingertips
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-item__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div>
+              <p class="benefit-item__title">All Year Round</p>
+              <p class="benefit-item__desc">
+                Grow 365 days regardless of season
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-item__icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M20 12a8 8 0 1 1-8-8 6 6 0 0 0 8 8z" />
+              </svg>
+            </div>
+            <div>
+              <p class="benefit-item__title">Sustainable</p>
+              <p class="benefit-item__desc">Better for you and the planet</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                            Residential Tower Gardens
+    ============================================================ -->
+      <section
+        class="segment-section"
+        id="segments"
+        aria-label="Residential tower gardens"
+      >
+        <div class="segment-section__inner">
+          <h2 class="segment-section__title">Residential Tower Gardens</h2>
+          <p class="segment-section__desc">
+            Perfect for homes, balconies, rooftops and patios. Grow fresh herbs,
+            vegetables and greens for your family every day.
+          </p>
+
+          <div class="segment-section__body flex items-center">
+            <div class="segment-feature-list">
+              <div class="segment-feature">
+                <div class="segment-feature__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                    <path d="M9 22V12h6v10" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="segment-feature__title">Compact &amp; Beautiful</p>
+                  <p class="segment-feature__desc">
+                    Designed to fit in small spaces and enhance your home.
+                  </p>
+                </div>
+              </div>
+
+              <div class="segment-feature">
+                <div class="segment-feature__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 22v-9" />
+                    <path d="M12 13c0-4-3-6-7-6 0 4 3 6 7 6z" />
+                    <path d="M12 13c0-5 3-8 8-8 0 5-3 8-8 8z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="segment-feature__title">Easy to Use</p>
+                  <p class="segment-feature__desc">
+                    Low maintenance and simple to set up and grow.
+                  </p>
+                </div>
+              </div>
+
+              <div class="segment-feature">
+                <div class="segment-feature__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                    />
+                    <path d="M3 6h18" />
+                    <path d="M16 10a4 4 0 0 1-8 0" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="segment-feature__title">Fresh Every Day</p>
+                  <p class="segment-feature__desc">
+                    Enjoy chemical-free, nutritious produce right at home.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="segment-section__image">
+              <img
+                src="https://images.unsplash.com/photo-1761839257946-4616bcfafec7?w=800&amp;q=80"
+                alt="A vertical tower garden growing herbs and greens on a home patio"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="segment-panel">
+              <div class="segment-panel__header">
+                <span class="segment-panel__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                    <path d="M9 22V12h6v10" />
+                  </svg>
+                </span>
+                <p class="segment-panel__title">Ideal For</p>
+              </div>
+              <ul class="segment-panel__list">
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Balconies
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Terraces
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Backyards
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Kitchens
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Small Spaces
+                </li>
+              </ul>
+              <a href="#" class="btn btn--dark">
+                View Residential Models
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                            Commercial Tower Gardens
+    ============================================================ -->
+      <section class="segment-section" aria-label="Commercial tower gardens">
+        <div class="segment-section__inner">
+          <h2 class="segment-section__title">Commercial Tower Gardens</h2>
+          <p class="segment-section__desc">
+            Built for scale. Our commercial systems are ideal for businesses,
+            institutions and urban farms looking for high productivity.
+          </p>
+
+          <div
+            class="segment-section__body segment-section__body--reverse flex items-center"
+          >
+            <div class="segment-panel">
+              <div class="segment-panel__header">
+                <span class="segment-panel__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M6 22V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v18" />
+                    <path d="M2 22h20" />
+                    <path d="M9 7h1" />
+                    <path d="M14 7h1" />
+                    <path d="M9 11h1" />
+                    <path d="M14 11h1" />
+                    <path d="M9 15h1" />
+                    <path d="M14 15h1" />
+                  </svg>
+                </span>
+                <p class="segment-panel__title">Ideal For</p>
+              </div>
+              <ul class="segment-panel__list">
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Restaurants &amp; Cafes
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Hotels &amp; Resorts
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Schools &amp; Institutions
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Urban Farms
+                </li>
+                <li>
+                  <span class="segment-panel__check" aria-hidden="true"
+                    ><svg
+                      width="10"
+                      height="10"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12" /></svg></span
+                  >Retail &amp; Supermarkets
+                </li>
+              </ul>
+              <a href="#" class="btn btn--dark">
+                View Commercial Solutions
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="segment-section__image">
+              <img
+                src="https://images.unsplash.com/photo-1719760665423-c07ba150397b?w=800&amp;q=80"
+                alt="Rows of tower garden systems inside a large commercial greenhouse"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="segment-feature-list">
+              <div class="segment-feature">
+                <div class="segment-feature__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M3 3v18h18" />
+                    <path d="M18 17V9M13 17V5M8 17v-4" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="segment-feature__title">High Productivity</p>
+                  <p class="segment-feature__desc">
+                    Grow large quantities in a smaller footprint.
+                  </p>
+                </div>
+              </div>
+
+              <div class="segment-feature">
+                <div class="segment-feature__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="segment-feature__title">Cost Effective</p>
+                  <p class="segment-feature__desc">
+                    Lower operating costs and higher returns.
+                  </p>
+                </div>
+              </div>
+
+              <div class="segment-feature">
+                <div class="segment-feature__icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 12a8 8 0 1 1-8-8 6 6 0 0 0 8 8z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="segment-feature__title">Sustainable Business</p>
+                  <p class="segment-feature__desc">
+                    Reduce environmental impact and build a green brand.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                            Why Choose Agrotonomy
+    ============================================================ -->
+      <section
+        class="why-section"
+        aria-label="Why choose Agrotonomy tower gardens"
+      >
+        <div class="why-section__inner">
+          <h2 class="why-section__title">
+            Why Choose Agrotonomy Tower Gardens?
+          </h2>
+          <div class="why-grid grid grid-cols-2 gap-6 md:grid-cols-6">
+            <article class="why-card">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11z" />
+                  <polyline points="9 12 11 14 15 10" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Proven Technology</h3>
+              <p class="why-card__desc">
+                Researched and tested for maximum results.
+              </p>
+            </article>
+
+            <article class="why-card">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13z" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Premium Quality</h3>
+              <p class="why-card__desc">Durable, safe and built to last.</p>
+            </article>
+
+            <article class="why-card">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="3" />
+                  <path
+                    d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"
+                  />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Scalable Systems</h3>
+              <p class="why-card__desc">
+                From single tower to large scale farms.
+              </p>
+            </article>
+
+            <article class="why-card">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+                  <path
+                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3ZM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3Z"
+                  />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Expert Support</h3>
+              <p class="why-card__desc">
+                We're with you from setup to harvest.
+              </p>
+            </article>
+
+            <article class="why-card">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 12a8 8 0 1 1-8-8 6 6 0 0 0 8 8z" />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Sustainable Impact</h3>
+              <p class="why-card__desc">
+                Conserving resources for a better future.
+              </p>
+            </article>
+
+            <article class="why-card">
+              <div class="why-card__icon" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon
+                    points="12 2 15 9 22 9.5 16.5 14 18.5 21 12 17 5.5 21 7.5 14 2 9.5 9 9 12 2"
+                  />
+                </svg>
+              </div>
+              <h3 class="why-card__title">Trusted Worldwide</h3>
+              <p class="why-card__desc">Used by growers in 25+ countries.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                            Final CTA Banner
+    ============================================================ -->
+      <section class="tower-cta" aria-label="Get started with tower gardens">
+        <div class="tower-cta__inner">
+          <div class="tower-cta__box flex items-center">
+            <div class="tower-cta__image">
+              <img
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&amp;q=80"
+                alt="A young seedling sprouting from rich soil, ready to grow"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="tower-cta__text">
+              <h2 class="tower-cta__title">Ready to Grow More with Less?</h2>
+              <p class="tower-cta__desc">
+                Choose the perfect tower garden for your home or business and
+                start your growing journey today.
+              </p>
+            </div>
+
+            <div class="tower-cta__actions">
+              <a href="#" class="tower-cta__btn-primary">
+                Explore All Products
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+              <a href="#" class="tower-cta__btn-outline">
+                Get a Free Consultation
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function initTowerCardReveal() {
+        const cards = document.querySelectorAll(
+          ".benefit-item, .segment-feature, .why-card",
+        );
+        if (!cards.length) return;
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = "translateY(0)";
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          {
+            threshold: 0.15,
+          },
+        );
+
+        cards.forEach((el) => {
+          el.style.opacity = 0;
+          el.style.transform = "translateY(16px)";
+          el.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+          observer.observe(el);
+        });
+      }
+
+      document.addEventListener("DOMContentLoaded", initTowerCardReveal);
+    </script>
+
+    <!-- ============================================================
+                               Newsletter
+        ============================================================ -->
+    <section class="newsletter-section" aria-label="Newsletter signup">
+      <div class="newsletter-section__inner flex items-center gap-8">
+        <div class="newsletter-section__image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=75"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div class="newsletter-section__content">
+          <h2 class="newsletter-section__title">Sign up to our newsletter</h2>
+          <p class="newsletter-section__desc">
+            Get our updates straight to your inbox.
+          </p>
+          <form class="newsletter-form flex items-center gap-2" novalidate>
+            <label for="newsletter-email" class="sr-only"
+              >Your email address</label
+            >
+            <input
+              type="email"
+              id="newsletter-email"
+              class="newsletter-form__input"
+              placeholder="Enter your email"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn--subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+                           Footer Section   
+    ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__top">
+        <div class="site-footer__top-inner flex items-center justify-between">
+          <a
+            href="index.php"
+            class="site-logo flex items-center gap-2"
+            aria-label="Agrotonomy Home"
+          >
+            <div class="site-logo__icon">
+              <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+                <path
+                  d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                  fill="#fff"
+                  opacity="0.3"
+                />
+                <path
+                  d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                  fill="#ffb800"
+                />
+                <circle cx="20" cy="20" r="3" fill="#fff" />
+              </svg>
+            </div>
+            <span class="site-logo__text site-logo__text--footer"
+              >AGROTONOMY</span
+            >
+          </a>
+          <div class="site-footer__social flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <rect
+                  x="2"
+                  y="2"
+                  width="20"
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="white" /></svg
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              aria-label="TikTok"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.33 6.33 0 006.33-6.33V7.5a4.83 4.83 0 01-2.66-.81z"
+                /></svg
+            ></a>
+            <a
+              href="mailto:info@agrotonomy.com"
+              target="_blank"
+              aria-label="email"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <polyline
+                  points="22,6 12,13 2,6"
+                  stroke="white"
+                  stroke-width="2"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__nav-bar">
+        <div
+          class="site-footer__nav-inner flex items-center justify-center flex-wrap gap-4"
+        >
+          <a href="index.php" class="footer-link">Home</a>
+          <a href="tower-garden.php" class="footer-link">Tower Garden</a>
+          <a href="tower-farms.php" class="footer-link">Tower Farms</a>
+          <a href="education.php" class="footer-link">Education</a>
+          <a href="resources.php" class="footer-link">Resources</a>
+          <a href="about.php" class="footer-link">About Us</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="site-footer__copyright">
+        <p>© Agrotonomy Corp 2025 · All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+                            Script Links  
+    ============================================================ -->
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

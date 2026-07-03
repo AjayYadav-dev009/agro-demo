@@ -1,0 +1,2089 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrotonomy - Aeroponic Tower Farms</title>
+    <!-- ============================================================
+                              LINKS
+    ============================================================ -->
+    <link rel="stylesheet" href="assets/src/output.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============================================================
+                              TOP BAR
+    ============================================================ -->
+    <div class="top-bar">
+      <div class="top-bar__inner flex items-center justify-end gap-4">
+        <div class="top-bar__social flex items-center gap-3">
+          <a href="#" aria-label="Facebook" class="top-bar__icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M22 5.8c-.6.3-1.3.5-2 .6.7-.4 1.3-1.1 1.6-1.9-.7.4-1.5.7-2.3.9A3.6 3.6 0 0 0 16.6 4c-2 0-3.6 1.6-3.6 3.6 0 .3 0 .6.1.8-3-.2-5.8-1.6-7.6-3.8-.3.5-.5 1.1-.5 1.8 0 1.2.6 2.3 1.6 2.9-.6 0-1.1-.2-1.6-.4v.1c0 1.7 1.2 3.2 2.9 3.5-.3.1-.6.1-.9.1-.2 0-.4 0-.7-.1.5 1.5 1.9 2.6 3.5 2.6A7.2 7.2 0 0 1 4 18.3 10.2 10.2 0 0 0 9.5 20c6.6 0 10.3-5.5 10.3-10.3v-.5c.7-.5 1.3-1.1 1.8-1.8z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.4 0 0 5.4 0 12.04c0 2.12.55 4.2 1.6 6.03L0 24l6.1-1.6a12 12 0 0 0 5.94 1.52h.01C18.6 23.92 24 18.52 24 11.96c0-3.2-1.25-6.2-3.48-8.48zm-8.48 18.4a9.92 9.92 0 0 1-5.05-1.39l-.36-.21-3.62.95.97-3.53-.24-.37A9.88 9.88 0 1 1 12.04 21.88zm5.45-7.42c-.3-.15-1.77-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.17.2-.35.23-.65.08a8.1 8.1 0 0 1-2.39-1.47 8.95 8.95 0 0 1-1.66-2.07c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.08-.8.38-.28.3-1.06 1.04-1.06 2.54 0 1.5 1.09 2.95 1.24 3.15.15.2 2.14 3.28 5.18 4.6.72.31 1.28.49 1.72.63.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm9.5 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- <div class="top-bar__lang flex items-center gap-2">
+                <span class="top-bar__flag">🇫🇷</span>
+                <span class="top-bar__flag">🇪🇸</span>
+                <span class="top-bar__flag">🇩🇪</span>
+                <span class="top-bar__flag">🇮🇹</span>
+                <span class="top-bar__flag">🇵🇹</span>
+                <span class="top-bar__lang-active">🌐 English</span>
+            </div> -->
+        <a href="admin/login.php" class="top-bar__login">🔑 Login</a>
+      </div>
+    </div>
+
+    <!-- ============================================================
+                              NAVBAR & MOBILE NAV
+    ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="site-header__inner flex items-center justify-between">
+        <a
+          href="index.html"
+          class="site-logo flex items-center gap-2"
+          aria-label="Agrotonomy Home"
+        >
+          <div class="site-logo__icon">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+              <path
+                d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                fill="#fff"
+                opacity="0.3"
+              />
+              <path
+                d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                fill="#ffb800"
+              />
+              <circle cx="20" cy="20" r="3" fill="#fff" />
+            </svg>
+          </div>
+          <span class="site-logo__text">AGROTONOMY</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="main-nav__list flex items-center gap-1">
+            <li><a href="index.html" class="main-nav__link">Home</a></li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-garden.html" class="main-nav__link"
+                >Tower Garden <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="tower-for-homes.html">For Homes</a></li>
+                <li><a href="tower-for-schools.html">For Schools</a></li>
+                <li><a href="tower-for-restaurants.html">For Restaurants</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-farms.html" class="main-nav__link"
+                >Tower Farms <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="small-farms.html">Small Farms</a></li>
+                <li><a href="large-farms.html">Large Farms</a></li>
+                <li><a href="greenhouse.html">Greenhouse</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="education.html" class="main-nav__link">Education</a>
+            </li>
+            <li>
+              <a href="resources.html" class="main-nav__link">Resources</a>
+            </li>
+            <li><a href="about.html" class="main-nav__link">About Us</a></li>
+            <li><a href="contact.html" class="main-nav__link">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- Mobile Nav -->
+      <nav
+        class="mobile-nav"
+        id="mobileNav"
+        aria-label="Mobile navigation"
+        aria-hidden="true"
+      >
+        <ul class="mobile-nav__list">
+          <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+          <li>
+            <a href="tower-garden.html" class="mobile-nav__link">Tower Garden</a>
+          </li>
+          <li>
+            <a href="tower-farms.html" class="mobile-nav__link">Tower Farms</a>
+          </li>
+          <li>
+            <a href="education.html" class="mobile-nav__link">Education</a>
+          </li>
+          <li>
+            <a href="resources.html" class="mobile-nav__link">Resources</a>
+          </li>
+          <li><a href="about.html" class="mobile-nav__link">About Us</a></li>
+          <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <style>
+      /* ============================================================
+   HERO
+   ============================================================ */
+      .hero {
+        background: var(--color-white);
+        border-bottom: 1px solid #eee;
+        overflow: hidden;
+      }
+
+      .hero__slider {
+        position: relative;
+      }
+
+      .hero__slide {
+        display: none;
+        padding: var(--space-xl) 0 var(--space-lg);
+      }
+
+      .hero__slide--active {
+        display: block;
+      }
+
+      .hero__content-wrap {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        gap: var(--space-2xl);
+        align-items: center;
+      }
+
+      .hero__text {
+        flex: 0 0 46%;
+        max-width: 46%;
+      }
+
+      .hero__image {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+
+      .hero__image img {
+        border-radius: var(--radius-lg);
+        width: 100%;
+        height: 380px;
+        object-fit: cover;
+      }
+
+      .hero__eyebrow {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: var(--space-sm);
+      }
+
+      .hero__headline {
+        font-size: var(--font-size-4xl);
+        font-weight: 800;
+        color: var(--color-text-dark);
+        line-height: 1.05;
+        margin-bottom: var(--space-md);
+      }
+
+      .hero__headline--accent {
+        color: var(--color-accent);
+      }
+
+      .hero__subtext {
+        font-size: var(--font-size-md);
+        color: var(--color-text-medium);
+        margin-bottom: var(--space-lg);
+        line-height: 1.6;
+        max-width: 420px;
+      }
+
+      .hero__stats {
+        margin-top: var(--space-lg);
+        flex-wrap: wrap;
+        row-gap: var(--space-sm);
+      }
+
+      .hero__stat {
+        flex: 0 0 auto;
+      }
+
+      .hero__stat-icon {
+        font-size: 18px;
+      }
+
+      .hero__stat-label {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        font-weight: 500;
+        white-space: nowrap;
+      }
+
+      /* Hero Controls */
+      .hero__controls {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--space-md) var(--space-lg);
+        border-top: 1px solid #eee;
+      }
+
+      .hero__prev,
+      .hero__next {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        color: var(--color-text-muted);
+        padding: 6px 10px;
+        transition: color var(--transition-fast);
+      }
+
+      .hero__prev:hover,
+      .hero__next:hover {
+        color: var(--color-brand);
+      }
+
+      .hero__counter {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+      }
+
+      /* Hero Slide Transition */
+      .hero__slide.is-entering {
+        animation: heroFadeIn 0.4s ease forwards;
+      }
+
+      @keyframes heroFadeIn {
+        from {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      /* ============================================================
+   INTRO SECTION
+   ============================================================ */
+      .intro-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+        text-align: center;
+      }
+
+      .intro-section__inner {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .intro-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-brand-mid);
+        margin-bottom: var(--space-md);
+        line-height: 1.3;
+      }
+
+      .intro-section__text {
+        font-size: var(--font-size-base);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+        margin-bottom: var(--space-sm);
+      }
+
+      /* ============================================================
+   PRODUCT CARDS
+   ============================================================ */
+      .products-section {
+        padding: var(--space-xl) 0 var(--space-2xl);
+        background: var(--color-white);
+      }
+
+      .products-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .product-card {
+        text-align: left;
+      }
+
+      .product-card__image {
+        width: 100%;
+        aspect-ratio: 4/3;
+        overflow: hidden;
+        border-radius: var(--radius-md);
+        margin-bottom: 12px;
+        background: var(--color-light-gray);
+      }
+
+      .product-card__image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+      }
+
+      .product-card:hover .product-card__image img {
+        transform: scale(1.05);
+      }
+
+      .masterclass-thumb {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: var(--color-brand-dark);
+      }
+
+      .masterclass-thumb__bg {
+        position: absolute;
+        inset: 0;
+      }
+
+      .masterclass-thumb__bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.4;
+      }
+
+      .masterclass-thumb__overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+      }
+
+      .masterclass-thumb__brand {
+        font-size: var(--font-size-xs);
+        font-weight: 800;
+        color: var(--color-white);
+        letter-spacing: 0.12em;
+      }
+
+      .masterclass-thumb__label {
+        font-size: var(--font-size-lg);
+        font-weight: 800;
+        color: var(--color-white);
+        letter-spacing: 0.04em;
+      }
+
+      .masterclass-thumb__smiley {
+        font-size: 2rem;
+      }
+
+      .product-card__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        letter-spacing: 0.04em;
+        margin-bottom: 4px;
+      }
+
+      .product-card__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        margin-bottom: 8px;
+      }
+
+      .product-card__link {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        color: var(--color-text-dark);
+        transition: color var(--transition-fast);
+      }
+
+      .product-card__link:hover {
+        color: var(--color-brand);
+      }
+
+      /* ============================================================
+   FOLLOWERS BANNER
+   ============================================================ */
+      .followers-banner {
+        background: var(--color-brand-dark);
+        background-image: linear-gradient(
+          to right,
+          var(--color-brand-dark),
+          var(--color-brand-mid)
+        );
+        padding: var(--space-2xl) 0;
+      }
+
+      .followers-banner__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        flex-wrap: wrap;
+        gap: var(--space-xl);
+      }
+
+      .followers-banner__label {
+        font-size: var(--font-size-sm);
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .followers-banner__count {
+        font-size: var(--font-size-3xl);
+        font-weight: 800;
+        color: var(--color-accent);
+        line-height: 1;
+      }
+
+      .followers-banner__sublabel {
+        font-size: var(--font-size-sm);
+        color: var(--color-white);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .followers-banner__desc {
+        font-size: var(--font-size-sm);
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: var(--space-md);
+        max-width: 320px;
+        line-height: 1.6;
+      }
+
+      .followers-banner__platforms {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .social-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: var(--radius-md);
+        padding: 10px 14px;
+        min-width: 80px;
+        transition: background var(--transition-fast);
+      }
+
+      .social-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      .social-btn__label {
+        font-size: 9px;
+        font-weight: 700;
+        color: var(--color-white);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .social-btn__count {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.75);
+      }
+
+      /* ============================================================
+   VIDEOS SECTION
+   ============================================================ */
+      .videos-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+      }
+
+      .videos-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .video-card {
+        position: relative;
+      }
+
+      .video-card__thumb {
+        position: relative;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        aspect-ratio: 16/9;
+        background: var(--color-brand-dark);
+      }
+
+      .video-card__thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.7;
+        transition: opacity var(--transition-base);
+      }
+
+      .video-card:hover .video-card__thumb img {
+        opacity: 0.85;
+      }
+
+      .video-card__overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: flex-end;
+        padding: var(--space-md);
+      }
+
+      .video-card__overlay--masterclass {
+        align-items: center;
+        justify-content: center;
+      }
+
+      .video-card__text {
+        font-size: var(--font-size-2xl);
+        font-weight: 900;
+        color: var(--color-white);
+        line-height: 1.1;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        text-transform: uppercase;
+      }
+
+      .video-masterclass-label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+      }
+
+      .masterclass-badge__brand {
+        font-size: var(--font-size-xs);
+        font-weight: 800;
+        color: var(--color-white);
+        letter-spacing: 0.16em;
+      }
+
+      .masterclass-badge__title {
+        font-size: var(--font-size-xl);
+        font-weight: 900;
+        color: var(--color-white);
+        letter-spacing: 0.08em;
+      }
+
+      .masterclass-badge__smiley {
+        font-size: 2.5rem;
+      }
+
+      .video-play-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        transition: transform var(--transition-fast);
+      }
+
+      .video-card:hover .video-play-btn {
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+
+      .video-card__label {
+        margin-top: 8px;
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--color-text-dark);
+      }
+
+      /* ============================================================
+   E-BOOKS SECTION
+   ============================================================ */
+      .ebooks-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-off-white);
+      }
+
+      .ebooks-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .ebooks-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 800;
+        color: var(--color-text-dark);
+        text-align: center;
+        margin-bottom: var(--space-xl);
+        letter-spacing: 0.04em;
+      }
+
+      .ebook-card {
+        text-align: center;
+      }
+
+      .ebook-card__cover {
+        aspect-ratio: 3/4;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        margin-bottom: 10px;
+        box-shadow: var(--shadow-card);
+        background: var(--color-brand-dark);
+      }
+
+      .ebook-card__cover img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+      }
+
+      .ebook-card:hover .ebook-card__cover img {
+        transform: scale(1.04);
+      }
+
+      .ebook-card__title {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-medium);
+        margin-bottom: 4px;
+        line-height: 1.4;
+      }
+
+      .ebook-card__price {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-price);
+      }
+
+      .ebooks-section__cta {
+        margin-top: var(--space-xl);
+      }
+
+      /* ============================================================
+   INSTAGRAM SECTION
+   ============================================================ */
+      .instagram-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+      }
+
+      .instagram-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .instagram-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        text-align: center;
+        margin-bottom: var(--space-lg);
+      }
+
+      .instagram-profile {
+        margin-bottom: var(--space-md);
+        border: 1px solid #eee;
+        border-radius: var(--radius-md);
+        padding: var(--space-md);
+      }
+
+      .instagram-profile__avatar {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid var(--color-accent);
+      }
+
+      .instagram-profile__avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .instagram-profile__handle {
+        font-size: var(--font-size-base);
+        font-weight: 700;
+        color: var(--color-text-dark);
+      }
+
+      .instagram-profile__verified {
+        color: var(--color-brand);
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+      }
+
+      .instagram-profile__followers {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+      }
+
+      .instagram-grid {
+        margin: var(--space-md) 0;
+      }
+
+      .instagram-post {
+        display: block;
+        position: relative;
+        aspect-ratio: 1;
+        overflow: hidden;
+        background: var(--color-light-gray);
+      }
+
+      .instagram-post img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+      }
+
+      .instagram-post:hover img {
+        transform: scale(1.06);
+      }
+
+      .instagram-post__stats {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.55);
+        color: var(--color-white);
+        font-size: 10px;
+        padding: 5px 8px;
+        display: flex;
+        gap: 8px;
+        opacity: 0;
+        transition: opacity var(--transition-fast);
+      }
+
+      .instagram-post:hover .instagram-post__stats {
+        opacity: 1;
+      }
+
+      .instagram-section__actions {
+        margin-top: var(--space-lg);
+        gap: var(--space-md);
+      }
+
+      /* ============================================================
+   TRUST SECTION
+   ============================================================ */
+      .trust-section {
+        padding: var(--space-xl) 0;
+        background: var(--color-white);
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+      }
+
+      .trust-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+      }
+
+      .trust-badge {
+        padding: var(--space-md);
+      }
+
+      .trust-badge__icon {
+        flex-shrink: 0;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .trust-badge__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        line-height: 1.2;
+      }
+
+      .trust-badge__desc {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+      }
+
+      /* ============================================================
+   RESPONSIVE
+   ============================================================ */
+      @media (max-width: 1024px) {
+        .hero__headline {
+          font-size: var(--font-size-3xl);
+        }
+
+        .followers-banner__count {
+          font-size: var(--font-size-2xl);
+        }
+      }
+
+      @media (max-width: 768px) {
+        :root {
+          --header-height: 60px;
+        }
+
+        /* Nav */
+        .main-nav {
+          display: none;
+        }
+
+        .mobile-menu-btn {
+          display: flex;
+        }
+
+        /* Hero */
+        .hero__slide {
+          padding: var(--space-lg) 0;
+        }
+
+        .hero__content-wrap {
+          gap: var(--space-lg);
+        }
+
+        .hero__text {
+          flex: unset;
+          max-width: 100%;
+        }
+
+        .hero__image {
+          flex: unset;
+          max-width: 100%;
+        }
+
+        .hero__image img {
+          height: 240px;
+        }
+
+        .hero__headline {
+          font-size: var(--font-size-2xl);
+        }
+
+        .hero__stats {
+          gap: var(--space-md);
+        }
+
+        /* Followers */
+        .followers-banner__inner {
+          flex-direction: column;
+          gap: var(--space-lg);
+        }
+
+        .followers-banner__platforms {
+          justify-content: flex-start;
+        }
+
+        /* Ebooks grid — 2 col on mobile */
+        .ebooks-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        /* Instagram — 3 col on mobile */
+        .instagram-grid {
+          grid-template-columns: repeat(3, 1fr) !important;
+        }
+
+        /* Trust — 2 col */
+        .trust-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        /* Newsletter */
+        .newsletter-form {
+          justify-content: center;
+        }
+
+        /* Footer */
+        .site-footer__top-inner {
+          flex-direction: column;
+          gap: var(--space-md);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .hero__content-wrap {
+          flex-direction: column-reverse;
+        }
+
+        .hero__headline {
+          font-size: var(--font-size-xl);
+        }
+
+        .products-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .ebooks-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .instagram-grid {
+          grid-template-columns: repeat(3, 1fr) !important;
+        }
+
+        .trust-grid {
+          grid-template-columns: 1fr 1fr !important;
+        }
+
+        .site-footer__nav-inner {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .social-btn {
+          min-width: 64px;
+          padding: 8px 10px;
+        }
+
+        .newsletter-section__inner {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    </style>
+
+    <main id="main-content">
+      <!-- ============================================================
+                             Hero Section 
+        ============================================================ -->
+      <section class="hero" aria-label="Hero slider">
+        <div class="hero__slider" id="heroSlider">
+          <!-- Slide 1 -->
+          <div class="hero__slide hero__slide--active">
+            <div class="hero__content-wrap flex items-center">
+              <div class="hero__text">
+                <p class="hero__eyebrow">Aeroponic Tower Farms</p>
+                <h1 class="hero__headline">
+                  Grow More.<br /><span class="hero__headline--accent"
+                    >Use Less.</span
+                  >
+                </h1>
+                <p class="hero__subtext">
+                  Aeroponic Tower Farms grow fresh produce 3x faster using 95%
+                  less water than conventional soil farming.
+                </p>
+                <a href="#" class="btn btn--primary">Discover More</a>
+                <div class="hero__stats flex items-center gap-6">
+                  <div class="hero__stat flex items-center gap-2">
+                    <span class="hero__stat-icon">💧</span>
+                    <span class="hero__stat-label">95% Less Water</span>
+                  </div>
+                  <div class="hero__stat flex items-center gap-2">
+                    <span class="hero__stat-icon">🌱</span>
+                    <span class="hero__stat-label">3x Faster Growth</span>
+                  </div>
+                  <div class="hero__stat flex items-center gap-2">
+                    <span class="hero__stat-icon">🚫</span>
+                    <span class="hero__stat-label">No Soil, No Mess</span>
+                  </div>
+                  <div class="hero__stat flex items-center gap-2">
+                    <span class="hero__stat-icon">📅</span>
+                    <span class="hero__stat-label">Year-Round Harvest</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__image">
+                <img
+                  src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=700&q=80"
+                  alt="Aeroponic towers growing fresh produce in a greenhouse"
+                  loading="eager"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="hero__slide">
+            <div class="hero__content-wrap flex items-center">
+              <div class="hero__text">
+                <p class="hero__eyebrow">Vertical Farming Solutions</p>
+                <h1 class="hero__headline">
+                  Farm<br /><span class="hero__headline--accent">Smarter.</span>
+                </h1>
+                <p class="hero__subtext">
+                  Deploy scalable aeroponic tower farms for commercial
+                  production with minimal footprint and maximum yield.
+                </p>
+                <a href="#" class="btn btn--primary">Discover More</a>
+              </div>
+              <div class="hero__image">
+                <img
+                  src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=700&q=80"
+                  alt="Commercial tower farm greenhouse"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="hero__slide">
+            <div class="hero__content-wrap flex items-center">
+              <div class="hero__text">
+                <p class="hero__eyebrow">Worldwide Solutions</p>
+                <h1 class="hero__headline">
+                  Grow<br /><span class="hero__headline--accent"
+                    >Anywhere.</span
+                  >
+                </h1>
+                <p class="hero__subtext">
+                  From Europe to Asia, Africa to the Americas — aeroponic
+                  farming solutions for every climate and region.
+                </p>
+                <a href="#" class="btn btn--primary">Discover More</a>
+              </div>
+              <div class="hero__image">
+                <img
+                  src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&q=80"
+                  alt="Aeroponic farming worldwide"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slider Controls -->
+        <div class="hero__controls flex items-center justify-between">
+          <button class="hero__prev" id="heroPrev" aria-label="Previous slide">
+            ‹ PREV
+          </button>
+          <span class="hero__counter" id="heroCounter">1 / 3</span>
+          <button class="hero__next" id="heroNext" aria-label="Next slide">
+            NEXT ›
+          </button>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              Intro Section
+        ============================================================ -->
+      <section class="intro-section">
+        <div class="intro-section__inner">
+          <h2 class="intro-section__title">
+            We provide vertical farming &amp; greenhouse turnkey solutions
+            worldwide.
+          </h2>
+          <p class="intro-section__text">
+            Agrotonomy® helps you set up the first aeroponic vertical farms in
+            Europe, Asia, Africa, Australia, Polynesia, and the Middle East.
+          </p>
+          <p class="intro-section__text">
+            We have also developed many Tower Farm projects in the USA, Canada,
+            and the West Indies.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              Product Cards
+        ============================================================ -->
+      <section class="products-section" aria-label="Products">
+        <div class="products-section__inner">
+          <div class="products-grid grid grid-cols-2 gap-6 md:grid-cols-4">
+            <article class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=400&q=75"
+                  alt="Tower garden for homes"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__title">TOWERS FOR HOMES</h3>
+              <p class="product-card__desc">
+                Perfect for indoor &amp; outdoor use.
+              </p>
+              <a href="#" class="product-card__link">Learn More →</a>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&q=75"
+                  alt="Tower farms for commercial use"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__title">TOWERS FOR FARMS</h3>
+              <p class="product-card__desc">
+                Scalable farms of 10 towers or more.
+              </p>
+              <a href="#" class="product-card__link">Learn More →</a>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image product-card__image--masterclass">
+                <div class="masterclass-thumb">
+                  <div class="masterclass-thumb__bg">
+                    <img
+                      src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=400&q=75"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="masterclass-thumb__overlay">
+                    <div class="masterclass-thumb__brand">AGROTONOMY</div>
+                    <div class="masterclass-thumb__label">MASTERCLASS</div>
+                    <div class="masterclass-thumb__smiley">🙂</div>
+                  </div>
+                </div>
+              </div>
+              <h3 class="product-card__title">MASTERCLASS</h3>
+              <p class="product-card__desc">
+                24 chapters, 2+ hours of content.
+              </p>
+              <a href="#" class="product-card__link">Learn More →</a>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img
+                  src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&q=75"
+                  alt="E-books for farming"
+                  loading="lazy"
+                />
+              </div>
+              <h3 class="product-card__title">E-BOOKS</h3>
+              <p class="product-card__desc">For beginners and experts.</p>
+              <a href="#" class="product-card__link">Learn More →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              Social Media
+        ============================================================ -->
+      <section class="followers-banner" aria-label="Social media following">
+        <div class="followers-banner__inner flex items-center justify-between">
+          <div class="followers-banner__left flex items-center gap-6">
+            <div class="followers-banner__icon-wrap" aria-hidden="true">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                <circle
+                  cx="32"
+                  cy="32"
+                  r="30"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <circle cx="22" cy="28" r="7" fill="white" opacity="0.7" />
+                <circle cx="42" cy="28" r="7" fill="white" opacity="0.7" />
+                <circle cx="32" cy="32" r="8" fill="white" />
+              </svg>
+            </div>
+            <div>
+              <p class="followers-banner__label">OVER</p>
+              <p class="followers-banner__count">16 MILLION</p>
+              <p class="followers-banner__sublabel">FOLLOWERS</p>
+            </div>
+          </div>
+          <div class="followers-banner__right">
+            <p class="followers-banner__desc">
+              Agrotonomy® boasts the world's largest social media presence in
+              the agricultural sector.
+            </p>
+            <div class="followers-banner__platforms flex items-center gap-3">
+              <a
+                href="#"
+                class="social-btn"
+                aria-label="Instagram - 6.6 Million followers"
+              >
+                <svg
+                  class="social-btn__icon"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  width="22"
+                  height="22"
+                >
+                  <rect
+                    x="2"
+                    y="2"
+                    width="20"
+                    height="20"
+                    rx="5"
+                    ry="5"
+                    stroke="white"
+                    stroke-width="2"
+                    fill="none"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="4"
+                    stroke="white"
+                    stroke-width="2"
+                    fill="none"
+                  />
+                  <circle cx="17.5" cy="6.5" r="1.5" fill="white" />
+                </svg>
+                <span class="social-btn__label">INSTAGRAM</span>
+                <span class="social-btn__count">6.6 Million</span>
+              </a>
+              <a
+                href="#"
+                class="social-btn"
+                aria-label="TikTok - 4.5 Million followers"
+              >
+                <svg
+                  class="social-btn__icon"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.81a8.18 8.18 0 004.77 1.52V6.88a4.85 4.85 0 01-1-.19z"
+                  />
+                </svg>
+                <span class="social-btn__label">TIKTOK</span>
+                <span class="social-btn__count">4.5 Million</span>
+              </a>
+              <a
+                href="#"
+                class="social-btn"
+                aria-label="Facebook - 4 Million followers"
+              >
+                <svg
+                  class="social-btn__icon"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                  />
+                </svg>
+                <span class="social-btn__label">FACEBOOK</span>
+                <span class="social-btn__count">4 Million</span>
+              </a>
+              <a
+                href="#"
+                class="social-btn"
+                aria-label="YouTube - 90K followers"
+              >
+                <svg
+                  class="social-btn__icon"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"
+                  />
+                  <polygon
+                    points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"
+                    fill="#2d5a27"
+                  />
+                </svg>
+                <span class="social-btn__label">YOUTUBE</span>
+                <span class="social-btn__count">90K</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              Video Section
+        ============================================================ -->
+      <section class="videos-section" aria-label="Featured videos">
+        <div class="videos-section__inner">
+          <div class="videos-grid grid grid-cols-1 gap-4 md:grid-cols-2">
+            <!-- Video Card 1 -->
+            <article class="video-card">
+              <div class="video-card__thumb">
+                <img
+                  src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=75"
+                  alt="Top 7 Benefits of a Tower Farm"
+                  loading="lazy"
+                />
+                <div class="video-card__overlay">
+                  <h3 class="video-card__text">TOP 7<br />BENEFITS</h3>
+                </div>
+                <button
+                  class="video-play-btn"
+                  aria-label="Play Top 7 Benefits video"
+                >
+                  <svg viewBox="0 0 24 24" fill="white" width="48" height="48">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="11"
+                      stroke="white"
+                      stroke-width="1.5"
+                      fill="rgba(0,0,0,0.4)"
+                    />
+                    <polygon points="10,8 18,12 10,16" fill="white" />
+                  </svg>
+                </button>
+                <p class="video-card__label">Top 7 Benefits of a Tower Farm</p>
+              </div>
+            </article>
+            <!-- Video Card 2 -->
+            <article class="video-card">
+              <div class="video-card__thumb">
+                <img
+                  src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&q=75"
+                  alt="Agrotonomy Masterclass"
+                  loading="lazy"
+                />
+                <div
+                  class="video-card__overlay video-card__overlay--masterclass"
+                >
+                  <div class="video-masterclass-label">
+                    <div class="masterclass-badge__brand">AGROTONOMY</div>
+                    <div class="masterclass-badge__title">MASTERCLASS</div>
+                    <div class="masterclass-badge__smiley">🙂</div>
+                  </div>
+                </div>
+                <button
+                  class="video-play-btn"
+                  aria-label="Play Agrotonomy Masterclass video"
+                >
+                  <svg viewBox="0 0 24 24" fill="white" width="48" height="48">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="11"
+                      stroke="white"
+                      stroke-width="1.5"
+                      fill="rgba(0,0,0,0.4)"
+                    />
+                    <polygon points="10,8 18,12 10,16" fill="white" />
+                  </svg>
+                </button>
+                <p class="video-card__label">Agrotonomy's Masterclass</p>
+              </div>
+            </article>
+            <!-- Video Card 3 -->
+            <article class="video-card">
+              <div class="video-card__thumb">
+                <img
+                  src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=600&q=75"
+                  alt="What grows well on an aeroponic tower"
+                  loading="lazy"
+                />
+                <button
+                  class="video-play-btn"
+                  aria-label="Play What Grows Well video"
+                >
+                  <svg viewBox="0 0 24 24" fill="white" width="48" height="48">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="11"
+                      stroke="white"
+                      stroke-width="1.5"
+                      fill="rgba(0,0,0,0.4)"
+                    />
+                    <polygon points="10,8 18,12 10,16" fill="white" />
+                  </svg>
+                </button>
+                <p class="video-card__label">
+                  What Grows Well on an Aeroponic Tower
+                </p>
+              </div>
+            </article>
+            <!-- Video Card 4 -->
+            <article class="video-card">
+              <div class="video-card__thumb">
+                <img
+                  src="https://images.unsplash.com/photo-1627483297886-49710ae1fc22?w=600&q=75"
+                  alt="Farming without soil in the tropics"
+                  loading="lazy"
+                />
+                <button
+                  class="video-play-btn"
+                  aria-label="Play Farming Without Soil video"
+                >
+                  <svg viewBox="0 0 24 24" fill="white" width="48" height="48">
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="11"
+                      stroke="white"
+                      stroke-width="1.5"
+                      fill="rgba(0,0,0,0.4)"
+                    />
+                    <polygon points="10,8 18,12 10,16" fill="white" />
+                  </svg>
+                </button>
+                <p class="video-card__label">
+                  Farming Without Soil in the Tropics
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              E-Book Section
+        ============================================================ -->
+      <section class="ebooks-section" aria-label="E-books for sale">
+        <div class="ebooks-section__inner">
+          <h2 class="ebooks-section__title">E-BOOKS FOR SALE</h2>
+          <div
+            class="ebooks-grid grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6"
+          >
+            <article class="ebook-card">
+              <div class="ebook-card__cover">
+                <img
+                  src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=75"
+                  alt="Aeroponic Tower Cultivation Guide"
+                  loading="lazy"
+                />
+              </div>
+              <p class="ebook-card__title">Aeroponic Tower Cultivation Guide</p>
+              <p class="ebook-card__price">$49.00</p>
+            </article>
+            <article class="ebook-card">
+              <div class="ebook-card__cover">
+                <img
+                  src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=200&q=75"
+                  alt="Vertical Farming with Aeroponics"
+                  loading="lazy"
+                />
+              </div>
+              <p class="ebook-card__title">Vertical Farming with Aeroponics</p>
+              <p class="ebook-card__price">$39.00</p>
+            </article>
+            <article class="ebook-card">
+              <div class="ebook-card__cover">
+                <img
+                  src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=200&q=75"
+                  alt="Climate-Controlled Greenhouses vs Indoor Farming"
+                  loading="lazy"
+                />
+              </div>
+              <p class="ebook-card__title">
+                Climate-Controlled Greenhouses vs. Indoor Farming
+              </p>
+              <p class="ebook-card__price">$29.00</p>
+            </article>
+            <article class="ebook-card">
+              <div class="ebook-card__cover">
+                <img
+                  src="https://images.unsplash.com/photo-1627483297886-49710ae1fc22?w=200&q=75"
+                  alt="Solar-Powered Aeroponic Tower Farming"
+                  loading="lazy"
+                />
+              </div>
+              <p class="ebook-card__title">
+                Solar-Powered Aeroponic Tower Farming
+              </p>
+              <p class="ebook-card__price">$39.00</p>
+            </article>
+            <article class="ebook-card">
+              <div class="ebook-card__cover">
+                <img
+                  src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&q=75"
+                  alt="Crop Yields: Aeroponic Tower Farming Output"
+                  loading="lazy"
+                />
+              </div>
+              <p class="ebook-card__title">
+                Crop Yields: Aeroponic Tower Farming Output
+              </p>
+              <p class="ebook-card__price">$15.00</p>
+            </article>
+            <article class="ebook-card">
+              <div class="ebook-card__cover">
+                <img
+                  src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=200&q=75"
+                  alt="Grow Cage System for Aeroponic Towers"
+                  loading="lazy"
+                />
+              </div>
+              <p class="ebook-card__title">
+                Grow Cage System for Aeroponic Towers (Blueprint)
+              </p>
+              <p class="ebook-card__price">$45.00</p>
+            </article>
+          </div>
+          <div class="ebooks-section__cta flex justify-center">
+            <a href="#" class="btn btn--dark">View All E-Books</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              Instagram Section
+        ============================================================ -->
+      <section class="instagram-section" aria-label="Instagram feed">
+        <div class="instagram-section__inner">
+          <h2 class="instagram-section__title">
+            Check out Agrotonomy's Instagram
+          </h2>
+          <div class="instagram-profile flex items-center justify-between">
+            <div class="instagram-profile__left flex items-center gap-3">
+              <div class="instagram-profile__avatar">
+                <img
+                  src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=60&q=75"
+                  alt="Agrotonomy Instagram profile"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <p class="instagram-profile__handle">
+                  agrotonomy
+                  <span
+                    class="instagram-profile__verified"
+                    aria-label="Verified"
+                    >✓</span
+                  >
+                </p>
+                <p class="instagram-profile__followers">61,222 followers</p>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="btn btn--follow"
+              aria-label="Follow Agrotonomy on Instagram"
+              >Follow</a
+            >
+          </div>
+          <div class="instagram-grid grid grid-cols-3 gap-1 md:grid-cols-6">
+            <a href="#" class="instagram-post" aria-label="Instagram post 1">
+              <img
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=250&q=70"
+                alt="Aeroponic tower farm"
+                loading="lazy"
+              />
+              <div class="instagram-post__stats">
+                <span>♥ 1.5k</span><span>💬 128</span>
+              </div>
+            </a>
+            <a href="#" class="instagram-post" aria-label="Instagram post 2">
+              <img
+                src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=250&q=70"
+                alt="Tower farm greenhouse"
+                loading="lazy"
+              />
+              <div class="instagram-post__stats">
+                <span>♥ 1.7k</span><span>💬 79</span>
+              </div>
+            </a>
+            <a href="#" class="instagram-post" aria-label="Instagram post 3">
+              <img
+                src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=250&q=70"
+                alt="Vertical farming produce"
+                loading="lazy"
+              />
+              <div class="instagram-post__stats">
+                <span>♥ 4.3k</span><span>💬 223</span>
+              </div>
+            </a>
+            <a href="#" class="instagram-post" aria-label="Instagram post 4">
+              <img
+                src="https://images.unsplash.com/photo-1627483297886-49710ae1fc22?w=250&q=70"
+                alt="Tropical farming"
+                loading="lazy"
+              />
+              <div class="instagram-post__stats">
+                <span>♥ 1.2k</span><span>💬 86</span>
+              </div>
+            </a>
+            <a href="#" class="instagram-post" aria-label="Instagram post 5">
+              <img
+                src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=250&q=70"
+                alt="E-books and resources"
+                loading="lazy"
+              />
+              <div class="instagram-post__stats">
+                <span>♥ 2.2k</span><span>💬 46</span>
+              </div>
+            </a>
+            <a href="#" class="instagram-post" aria-label="Instagram post 6">
+              <img
+                src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=250&q=70"
+                alt="Growing towers"
+                loading="lazy"
+              />
+              <div class="instagram-post__stats">
+                <span>♥ 1.4k</span><span>💬 58</span>
+              </div>
+            </a>
+          </div>
+          <div
+            class="instagram-section__actions flex items-center justify-center gap-3"
+          >
+            <button class="btn btn--load-more">Load More</button>
+            <a href="#" class="btn btn--instagram">
+              <svg
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                fill="white"
+                style="margin-right: 6px"
+              >
+                <rect
+                  x="2"
+                  y="2"
+                  width="20"
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  stroke="white"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                  stroke="white"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="white" />
+              </svg>
+              Follow on Instagram
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+                              Trust Section
+        ============================================================ -->
+      <section class="trust-section" aria-label="Trust indicators">
+        <div class="trust-section__inner">
+          <div class="trust-grid grid grid-cols-2 gap-4 md:grid-cols-4">
+            <div class="trust-badge flex items-center gap-3">
+              <div class="trust-badge__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none">
+                  <rect
+                    x="4"
+                    y="8"
+                    width="32"
+                    height="24"
+                    rx="3"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                  <circle
+                    cx="14"
+                    cy="20"
+                    r="4"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M22 16h10M22 20h10M22 24h10"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p class="trust-badge__title">Global</p>
+                <p class="trust-badge__desc">Turnkey Solutions</p>
+              </div>
+            </div>
+            <div class="trust-badge flex items-center gap-3">
+              <div class="trust-badge__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none">
+                  <circle
+                    cx="20"
+                    cy="20"
+                    r="12"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M14 20l4 4 8-8"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p class="trust-badge__title">Proven</p>
+                <p class="trust-badge__desc">Technology</p>
+              </div>
+            </div>
+            <div class="trust-badge flex items-center gap-3">
+              <div class="trust-badge__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none">
+                  <path
+                    d="M8 32V18a2 2 0 012-2h20a2 2 0 012 2v14"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M4 32h32"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M16 12V8a4 4 0 018 0v4"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p class="trust-badge__title">Training &amp;</p>
+                <p class="trust-badge__desc">Support</p>
+              </div>
+            </div>
+            <div class="trust-badge flex items-center gap-3">
+              <div class="trust-badge__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none">
+                  <circle
+                    cx="20"
+                    cy="20"
+                    r="14"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M20 6v4M20 30v4M6 20h4M30 20h4"
+                    stroke="#2d5a27"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="20"
+                    cy="20"
+                    r="5"
+                    stroke="#2d5a27"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+              <div>
+                <p class="trust-badge__title">Sustainable &amp;</p>
+                <p class="trust-badge__desc">Profitable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      initHeroSlider();
+      initVideoPlaceholders();
+      /* ============================================================
+   HERO SLIDER
+   ============================================================ */
+      function initHeroSlider() {
+        const slider = document.getElementById("heroSlider");
+        if (!slider) return;
+
+        const slides = slider.querySelectorAll(".hero__slide");
+        const counter = document.getElementById("heroCounter");
+        const prevBtn = document.getElementById("heroPrev");
+        const nextBtn = document.getElementById("heroNext");
+        const total = slides.length;
+        let current = 0;
+        let autoplayTimer = null;
+
+        function goToSlide(index) {
+          slides[current].classList.remove("hero__slide--active");
+          current = (index + total) % total;
+          slides[current].classList.add("hero__slide--active", "is-entering");
+          if (counter) counter.textContent = `${current + 1} / ${total}`;
+
+          // Remove animation class after it completes
+          setTimeout(() => {
+            slides[current].classList.remove("is-entering");
+          }, 450);
+        }
+
+        function startAutoplay() {
+          autoplayTimer = setInterval(() => goToSlide(current + 1), 3500);
+        }
+
+        function stopAutoplay() {
+          clearInterval(autoplayTimer);
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener("click", () => {
+            stopAutoplay();
+            goToSlide(current - 1);
+            startAutoplay();
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener("click", () => {
+            stopAutoplay();
+            goToSlide(current + 1);
+            startAutoplay();
+          });
+        }
+
+        // Keyboard navigation
+        slider.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowLeft") {
+            stopAutoplay();
+            goToSlide(current - 1);
+            startAutoplay();
+          }
+          if (e.key === "ArrowRight") {
+            stopAutoplay();
+            goToSlide(current + 1);
+            startAutoplay();
+          }
+        });
+
+        // Touch / swipe support
+        let touchStartX = 0;
+        slider.addEventListener(
+          "touchstart",
+          (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+          },
+          {
+            passive: true,
+          },
+        );
+        slider.addEventListener(
+          "touchend",
+          (e) => {
+            const diff = touchStartX - e.changedTouches[0].screenX;
+            if (Math.abs(diff) > 50) {
+              stopAutoplay();
+              goToSlide(diff > 0 ? current + 1 : current - 1);
+              startAutoplay();
+            }
+          },
+          {
+            passive: true,
+          },
+        );
+
+        // Pause autoplay on hover
+        slider.addEventListener("mouseenter", stopAutoplay);
+        slider.addEventListener("mouseleave", startAutoplay);
+
+        startAutoplay();
+      }
+
+      /* ============================================================
+   VIDEO PLACEHOLDERS
+   Play buttons — in real usage these would open a modal/embed
+   ============================================================ */
+      function initVideoPlaceholders() {
+        const playBtns = document.querySelectorAll(".video-play-btn");
+        playBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const card = btn.closest(".video-card");
+            const label = card
+              ? card.querySelector(".video-card__label")
+              : null;
+            const title = label ? label.textContent : "this video";
+            // In production: open a modal with an iframe embed
+            console.log(`Play: ${title}`);
+          });
+        });
+      }
+    </script>
+
+    <!-- ============================================================
+                               Newsletter
+        ============================================================ -->
+    <section class="newsletter-section" aria-label="Newsletter signup">
+      <div class="newsletter-section__inner flex items-center gap-8">
+        <div class="newsletter-section__image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=75"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div class="newsletter-section__content">
+          <h2 class="newsletter-section__title">Sign up to our newsletter</h2>
+          <p class="newsletter-section__desc">
+            Get our updates straight to your inbox.
+          </p>
+          <form class="newsletter-form flex items-center gap-2" novalidate>
+            <label for="newsletter-email" class="sr-only"
+              >Your email address</label
+            >
+            <input
+              type="email"
+              id="newsletter-email"
+              class="newsletter-form__input"
+              placeholder="Enter your email"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn--subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+                           Footer Section   
+    ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__top">
+        <div class="site-footer__top-inner flex items-center justify-between">
+          <a
+            href="index.php"
+            class="site-logo flex items-center gap-2"
+            aria-label="Agrotonomy Home"
+          >
+            <div class="site-logo__icon">
+              <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+                <path
+                  d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                  fill="#fff"
+                  opacity="0.3"
+                />
+                <path
+                  d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                  fill="#ffb800"
+                />
+                <circle cx="20" cy="20" r="3" fill="#fff" />
+              </svg>
+            </div>
+            <span class="site-logo__text site-logo__text--footer"
+              >AGROTONOMY</span
+            >
+          </a>
+          <div class="site-footer__social flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <rect
+                  x="2"
+                  y="2"
+                  width="20"
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="white" /></svg
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              aria-label="TikTok"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.33 6.33 0 006.33-6.33V7.5a4.83 4.83 0 01-2.66-.81z"
+                /></svg
+            ></a>
+            <a
+              href="mailto:info@agrotonomy.com"
+              target="_blank"
+              aria-label="email"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <polyline
+                  points="22,6 12,13 2,6"
+                  stroke="white"
+                  stroke-width="2"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__nav-bar">
+        <div
+          class="site-footer__nav-inner flex items-center justify-center flex-wrap gap-4"
+        >
+          <a href="index.php" class="footer-link">Home</a>
+          <a href="tower-garden.php" class="footer-link">Tower Garden</a>
+          <a href="tower-farms.php" class="footer-link">Tower Farms</a>
+          <a href="education.php" class="footer-link">Education</a>
+          <a href="resources.php" class="footer-link">Resources</a>
+          <a href="about.php" class="footer-link">About Us</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="site-footer__copyright">
+        <p>© Agrotonomy Corp 2025 · All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+                            Script Links  
+    ============================================================ -->
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

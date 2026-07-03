@@ -1,0 +1,1293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrotonomy - Aeroponic Tower Farms</title>
+    <!-- ============================================================
+                              LINKS
+    ============================================================ -->
+    <link rel="stylesheet" href="assets/src/output.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============================================================
+                              TOP BAR
+    ============================================================ -->
+    <div class="top-bar">
+      <div class="top-bar__inner flex items-center justify-end gap-4">
+        <div class="top-bar__social flex items-center gap-3">
+          <a href="#" aria-label="Facebook" class="top-bar__icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M22 5.8c-.6.3-1.3.5-2 .6.7-.4 1.3-1.1 1.6-1.9-.7.4-1.5.7-2.3.9A3.6 3.6 0 0 0 16.6 4c-2 0-3.6 1.6-3.6 3.6 0 .3 0 .6.1.8-3-.2-5.8-1.6-7.6-3.8-.3.5-.5 1.1-.5 1.8 0 1.2.6 2.3 1.6 2.9-.6 0-1.1-.2-1.6-.4v.1c0 1.7 1.2 3.2 2.9 3.5-.3.1-.6.1-.9.1-.2 0-.4 0-.7-.1.5 1.5 1.9 2.6 3.5 2.6A7.2 7.2 0 0 1 4 18.3 10.2 10.2 0 0 0 9.5 20c6.6 0 10.3-5.5 10.3-10.3v-.5c.7-.5 1.3-1.1 1.8-1.8z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.4 0 0 5.4 0 12.04c0 2.12.55 4.2 1.6 6.03L0 24l6.1-1.6a12 12 0 0 0 5.94 1.52h.01C18.6 23.92 24 18.52 24 11.96c0-3.2-1.25-6.2-3.48-8.48zm-8.48 18.4a9.92 9.92 0 0 1-5.05-1.39l-.36-.21-3.62.95.97-3.53-.24-.37A9.88 9.88 0 1 1 12.04 21.88zm5.45-7.42c-.3-.15-1.77-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.17.2-.35.23-.65.08a8.1 8.1 0 0 1-2.39-1.47 8.95 8.95 0 0 1-1.66-2.07c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.08-.8.38-.28.3-1.06 1.04-1.06 2.54 0 1.5 1.09 2.95 1.24 3.15.15.2 2.14 3.28 5.18 4.6.72.31 1.28.49 1.72.63.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm9.5 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- <div class="top-bar__lang flex items-center gap-2">
+                <span class="top-bar__flag">🇫🇷</span>
+                <span class="top-bar__flag">🇪🇸</span>
+                <span class="top-bar__flag">🇩🇪</span>
+                <span class="top-bar__flag">🇮🇹</span>
+                <span class="top-bar__flag">🇵🇹</span>
+                <span class="top-bar__lang-active">🌐 English</span>
+            </div> -->
+        <a href="admin/login.php" class="top-bar__login">🔑 Login</a>
+      </div>
+    </div>
+
+    <!-- ============================================================
+                              NAVBAR & MOBILE NAV
+    ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="site-header__inner flex items-center justify-between">
+        <a
+          href="index.html"
+          class="site-logo flex items-center gap-2"
+          aria-label="Agrotonomy Home"
+        >
+          <div class="site-logo__icon">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+              <path
+                d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                fill="#fff"
+                opacity="0.3"
+              />
+              <path
+                d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                fill="#ffb800"
+              />
+              <circle cx="20" cy="20" r="3" fill="#fff" />
+            </svg>
+          </div>
+          <span class="site-logo__text">AGROTONOMY</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="main-nav__list flex items-center gap-1">
+            <li><a href="index.html" class="main-nav__link">Home</a></li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-garden.html" class="main-nav__link"
+                >Tower Garden <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="tower-for-homes.html">For Homes</a></li>
+                <li><a href="tower-for-schools.html">For Schools</a></li>
+                <li><a href="tower-for-restaurants.html">For Restaurants</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-farms.html" class="main-nav__link"
+                >Tower Farms <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="small-farms.html">Small Farms</a></li>
+                <li><a href="large-farms.html">Large Farms</a></li>
+                <li><a href="greenhouse.html">Greenhouse</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="education.html" class="main-nav__link">Education</a>
+            </li>
+            <li>
+              <a href="resources.html" class="main-nav__link">Resources</a>
+            </li>
+            <li><a href="about.html" class="main-nav__link">About Us</a></li>
+            <li><a href="contact.html" class="main-nav__link">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- Mobile Nav -->
+      <nav
+        class="mobile-nav"
+        id="mobileNav"
+        aria-label="Mobile navigation"
+        aria-hidden="true"
+      >
+        <ul class="mobile-nav__list">
+          <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+          <li>
+            <a href="tower-garden.html" class="mobile-nav__link">Tower Garden</a>
+          </li>
+          <li>
+            <a href="tower-farms.html" class="mobile-nav__link">Tower Farms</a>
+          </li>
+          <li>
+            <a href="education.html" class="mobile-nav__link">Education</a>
+          </li>
+          <li>
+            <a href="resources.html" class="mobile-nav__link">Resources</a>
+          </li>
+          <li><a href="about.html" class="mobile-nav__link">About Us</a></li>
+          <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+<style>
+    /* ============================================================
+   RESOURCES HERO
+   ============================================================ */
+    .resources-hero {
+        padding: var(--space-2xl) 0 var(--space-xl);
+        background: var(--color-white);
+    }
+
+    .resources-hero__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+        gap: var(--space-2xl);
+    }
+
+    .resources-hero__text {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .resources-hero__image {
+        flex: 1;
+    }
+
+    .resources-hero__image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+    }
+
+    .resources-hero__eyebrow {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-brand);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: var(--space-md);
+    }
+
+    .resources-hero__headline {
+        font-size: var(--font-size-3xl);
+        font-weight: 800;
+        color: var(--color-text-dark);
+        line-height: 1.1;
+        margin-bottom: var(--space-md);
+    }
+
+    .resources-hero__headline--accent {
+        color: var(--color-accent);
+    }
+
+    .resources-hero__desc {
+        font-size: var(--font-size-base);
+        color: var(--color-text-muted);
+        line-height: 1.7;
+        margin-bottom: var(--space-lg);
+        max-width: 400px;
+    }
+
+    .resources-hero__features {
+        margin-top: var(--space-lg);
+    }
+
+    .resources-hero__feature-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: var(--space-sm);
+        border-radius: 50%;
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resources-hero__feature-title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 2px;
+    }
+
+    .resources-hero__feature-desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        max-width: 150px;
+    }
+
+    /* ============================================================
+   CATEGORY SECTION
+   ============================================================ */
+    .category-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+    }
+
+    .category-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+    }
+
+    .category-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-brand-dark);
+        text-align: center;
+        margin-bottom: var(--space-xl);
+    }
+
+    .category-card {
+        text-align: center;
+        padding: var(--space-lg) var(--space-md);
+        border: 1px solid var(--color-light-gray);
+        border-radius: var(--radius-md);
+        transition: box-shadow var(--transition-base), transform var(--transition-base), border-color var(--transition-base);
+    }
+
+    .category-card:hover {
+        box-shadow: var(--shadow-card);
+        border-color: transparent;
+        transform: translateY(-2px);
+    }
+
+    .category-card__icon {
+        width: 48px;
+        height: 48px;
+        margin: 0 auto var(--space-md);
+        border-radius: 50%;
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .category-card__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: var(--space-sm);
+    }
+
+    .category-card__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        line-height: 1.5;
+        margin-bottom: var(--space-md);
+    }
+
+    .category-card__count {
+        font-size: var(--font-size-xs);
+        font-weight: 700;
+        color: var(--color-price);
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    /* ============================================================
+   FEATURED RESOURCES
+   ============================================================ */
+    .featured-section {
+        padding: var(--space-xl) 0 var(--space-2xl);
+        background: var(--color-white);
+    }
+
+    .featured-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+    }
+
+    .featured-section__header {
+        margin-bottom: var(--space-lg);
+    }
+
+    .featured-section__title {
+        font-size: var(--font-size-xl);
+        font-weight: 700;
+        color: var(--color-text-dark);
+    }
+
+    .featured-section__link {
+        font-size: var(--font-size-sm);
+        font-weight: 600;
+        color: var(--color-brand);
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        transition: color var(--transition-fast);
+    }
+
+    .featured-section__link:hover {
+        color: var(--color-brand-light);
+    }
+
+    .resource-card__photo {
+        position: relative;
+        aspect-ratio: 4 / 3;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        margin-bottom: var(--space-sm);
+        box-shadow: var(--shadow-card);
+    }
+
+    .resource-card__photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+    }
+
+    .resource-card:hover .resource-card__photo img {
+        transform: scale(1.05);
+    }
+
+    .resource-card__badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 4px 10px;
+        border-radius: var(--radius-sm);
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--color-white);
+        background: var(--color-brand-dark);
+    }
+
+    .resource-card__badge--webinar {
+        background: var(--color-accent-dark);
+    }
+
+    .resource-card__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: 4px;
+        line-height: 1.3;
+    }
+
+    .resource-card__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        line-height: 1.5;
+        margin-bottom: var(--space-sm);
+    }
+
+    .resource-card__action {
+        font-size: var(--font-size-xs);
+        font-weight: 700;
+        color: var(--color-brand);
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .resource-card__action--price {
+        color: var(--color-price);
+    }
+
+    /* ============================================================
+   TOOLS & CALCULATORS
+   ============================================================ */
+    .tools-section {
+        padding: var(--space-2xl) 0;
+        background: var(--color-white);
+    }
+
+    .tools-section__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: var(--space-xl) var(--space-lg);
+        background: var(--color-off-white);
+        border-radius: var(--radius-lg);
+        gap: var(--space-2xl);
+    }
+
+    .tools-section__intro {
+        flex: 0 0 24%;
+        max-width: 24%;
+    }
+
+    .tools-section__title {
+        font-size: var(--font-size-lg);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: var(--space-sm);
+        line-height: 1.25;
+    }
+
+    .tools-section__desc {
+        font-size: var(--font-size-sm);
+        color: var(--color-text-muted);
+        line-height: 1.6;
+        margin-bottom: var(--space-lg);
+    }
+
+    .tools-grid {
+        flex: 1;
+    }
+
+    .tool-card {
+        background: var(--color-white);
+        border-radius: var(--radius-md);
+        padding: var(--space-lg);
+        text-align: center;
+        box-shadow: var(--shadow-card);
+    }
+
+    .tool-card__icon {
+        width: 44px;
+        height: 44px;
+        margin: 0 auto var(--space-md);
+        border-radius: 50%;
+        background: var(--color-light-gray);
+        color: var(--color-brand);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tool-card__title {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-text-dark);
+        margin-bottom: var(--space-sm);
+    }
+
+    .tool-card__desc {
+        font-size: var(--font-size-xs);
+        color: var(--color-text-muted);
+        line-height: 1.5;
+        margin-bottom: var(--space-md);
+    }
+
+    .tool-card__link {
+        font-size: var(--font-size-xs);
+        font-weight: 700;
+        color: var(--color-brand);
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    /* ============================================================
+   CONTACT BANNER
+   ============================================================ */
+    .contact-banner {
+        padding: var(--space-xl) 0 var(--space-2xl);
+        background: var(--color-white);
+    }
+
+    .contact-banner__inner {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 0 var(--space-lg);
+    }
+
+    .contact-banner__box {
+        background: var(--color-brand-dark);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        gap: var(--space-2xl);
+    }
+
+    .contact-banner__text {
+        flex: 0 0 32%;
+        max-width: 32%;
+        padding: var(--space-2xl) 0 var(--space-2xl) var(--space-2xl);
+    }
+
+    .contact-banner__eyebrow {
+        font-size: var(--font-size-xs);
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--color-accent);
+        margin-bottom: var(--space-sm);
+    }
+
+    .contact-banner__title {
+        font-size: var(--font-size-xl);
+        font-weight: 800;
+        color: var(--color-white);
+        margin-bottom: var(--space-sm);
+    }
+
+    .contact-banner__desc {
+        font-size: var(--font-size-sm);
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: var(--space-lg);
+    }
+
+    .contact-banner__image {
+        flex: 1;
+    }
+
+    .contact-banner__image img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .contact-banner__list {
+        flex: 0 0 26%;
+        max-width: 26%;
+        padding: var(--space-2xl) var(--space-2xl) var(--space-2xl) 0;
+    }
+
+    .contact-item {
+        margin-bottom: var(--space-lg);
+    }
+
+    .contact-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .contact-item__icon {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--color-accent);
+        color: var(--color-brand-dark);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .contact-item__label {
+        font-size: var(--font-size-sm);
+        font-weight: 700;
+        color: var(--color-white);
+        margin-bottom: 2px;
+    }
+
+    .contact-item__value {
+        font-size: var(--font-size-xs);
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    /* ============================================================
+   RESPONSIVE
+   ============================================================ */
+    @media (max-width: 1024px) {
+        .resources-hero__headline {
+            font-size: var(--font-size-2xl);
+        }
+
+        .category-grid.grid,
+        .featured-grid.grid {
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+
+        .tools-grid.grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .resources-hero__inner {
+            flex-direction: row;
+        }
+
+        .resources-hero__text {
+            flex: unset;
+            max-width: 100%;
+        }
+
+        .resources-hero__image {
+            flex: unset;
+            width: 100%;
+        }
+
+        .tools-section__inner {
+            flex-direction: column;
+        }
+
+        .tools-section__intro {
+            flex: unset;
+            max-width: 100%;
+            margin-bottom: var(--space-lg);
+        }
+
+        .contact-banner__box {
+            flex-direction: column;
+        }
+
+        .contact-banner__text,
+        .contact-banner__list {
+            flex: unset;
+            max-width: 100%;
+            padding: var(--space-xl);
+        }
+
+        .contact-banner__image img {
+            height: 200px;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .category-grid.grid,
+        .featured-grid.grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        .tools-grid.grid {
+            grid-template-columns: 1fr !important;
+        }
+
+        .resources-hero__headline {
+            font-size: var(--font-size-xl);
+        }
+
+        .resources-hero__image img {
+            height: 260px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .resources-hero__inner {
+            flex-direction: column-reverse;
+        }
+
+        .category-grid.grid,
+        .featured-grid.grid {
+            grid-template-columns: 1fr !important;
+        }
+    }
+</style>
+
+<main id="main-content">
+
+    <!-- ============================================================
+                            Hero Section
+    ============================================================ -->
+    <section class="resources-hero" aria-label="Resources introduction">
+        <div class="resources-hero__inner flex items-center">
+            <div class="resources-hero__text">
+                <p class="resources-hero__eyebrow">Resources</p>
+                <h1 class="resources-hero__headline">Knowledge to<br /><span class="resources-hero__headline--accent">Grow Smarter.</span></h1>
+                <p class="resources-hero__desc">Explore our library of guides, tools, and insights designed to help you succeed in vertical farming and greenhouse cultivation.</p>
+
+                <a href="#featured" class="btn btn--primary">
+                    Explore All Resources
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+
+                <div class="resources-hero__features grid grid-cols-3 gap-4">
+                    <div class="resources-hero__feature">
+                        <div class="resources-hero__feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z" />
+                                <path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z" />
+                            </svg>
+                        </div>
+                        <p class="resources-hero__feature-title">Expert Content</p>
+                        <p class="resources-hero__feature-desc">Created by industry experts and growers</p>
+                    </div>
+
+                    <div class="resources-hero__feature">
+                        <div class="resources-hero__feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3v13" />
+                                <path d="m7 11 5 5 5-5" />
+                                <path d="M5 20h14" />
+                            </svg>
+                        </div>
+                        <p class="resources-hero__feature-title">Free &amp; Premium</p>
+                        <p class="resources-hero__feature-desc">Access free resources or upgrade for more</p>
+                    </div>
+
+                    <div class="resources-hero__feature">
+                        <div class="resources-hero__feature-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <polyline points="12 6 12 12 16 14" />
+                            </svg>
+                        </div>
+                        <p class="resources-hero__feature-title">Always Updated</p>
+                        <p class="resources-hero__feature-desc">Fresh content on the latest trends &amp; tech</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources-hero__image">
+                <img src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=900&amp;q=80" alt="Stacked farming reference books beside a mug on a table inside a vertical farming greenhouse" loading="eager" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                            Browse by Category
+    ============================================================ -->
+    <section class="category-section" aria-label="Browse resources by category">
+        <div class="category-section__inner">
+            <h2 class="category-section__title">Browse by Category</h2>
+            <div class="category-grid grid grid-cols-2 gap-4 md:grid-cols-6">
+                <article class="category-card">
+                    <div class="category-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z" />
+                            <path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Guides &amp; How To</h3>
+                    <p class="category-card__desc">Step-by-step guides on farming, systems and more.</p>
+                    <a href="#" class="category-card__count">24 Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="category-card">
+                    <div class="category-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">E-Books</h3>
+                    <p class="category-card__desc">In-depth e-books to expand your knowledge.</p>
+                    <a href="#" class="category-card__count">18 Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="category-card">
+                    <div class="category-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 3v18h18" />
+                            <path d="M18 17V9M13 17V5M8 17v-4" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Research &amp; Insights</h3>
+                    <p class="category-card__desc">Industry reports, case studies and data-driven insights.</p>
+                    <a href="#" class="category-card__count">15 Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="category-card">
+                    <div class="category-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <line x1="8" y1="7" x2="16" y2="7" />
+                            <line x1="8" y1="12" x2="10" y2="12" />
+                            <line x1="14" y1="12" x2="16" y2="12" />
+                            <line x1="8" y1="17" x2="10" y2="17" />
+                            <line x1="14" y1="17" x2="16" y2="17" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Tools &amp; Calculators</h3>
+                    <p class="category-card__desc">Helpful tools to plan, calculate and optimize your farm.</p>
+                    <a href="#tools" class="category-card__count">8 Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="category-card">
+                    <div class="category-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <polygon points="10 8 16 12 10 16 10 8" fill="currentColor" stroke="none" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Videos &amp; Webinars</h3>
+                    <p class="category-card__desc">Watch expert talks, tutorials and recorded webinars.</p>
+                    <a href="#" class="category-card__count">21 Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="category-card">
+                    <div class="category-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="8" y="2" width="8" height="4" rx="1" />
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                            <path d="m9 14 2 2 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="category-card__title">Templates &amp; Checklists</h3>
+                    <p class="category-card__desc">Ready-to-use templates and checklists for your farm.</p>
+                    <a href="#" class="category-card__count">12 Resources <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                            Featured Resources
+    ============================================================ -->
+    <section class="featured-section" id="featured" aria-label="Featured resources">
+        <div class="featured-section__inner">
+            <div class="featured-section__header flex items-center justify-between">
+                <h2 class="featured-section__title">Featured Resources</h2>
+                <a href="#" class="featured-section__link">
+                    View All Resources
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="featured-grid grid grid-cols-2 gap-4 md:grid-cols-5">
+                <article class="resource-card">
+                    <div class="resource-card__photo">
+                        <span class="resource-card__badge">Guide</span>
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&amp;q=80" alt="A young seedling sprouting from soil in a planting tray" loading="lazy" />
+                    </div>
+                    <p class="resource-card__title">Vertical Farming for Beginners</p>
+                    <p class="resource-card__desc">A complete beginner's guide to understanding vertical farming.</p>
+                    <a href="#" class="resource-card__action">Read More <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-card__photo">
+                        <span class="resource-card__badge">E-Book</span>
+                        <img src="https://images.unsplash.com/photo-1719760665423-c07ba150397b?w=500&amp;q=80" alt="A row of climate-controlled greenhouses filled with plants" loading="lazy" />
+                    </div>
+                    <p class="resource-card__title">Greenhouse Design Manual</p>
+                    <p class="resource-card__desc">Design efficient and productive greenhouses for any climate.</p>
+                    <a href="#" class="resource-card__action resource-card__action--price">$29.00</a>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-card__photo">
+                        <span class="resource-card__badge">Case Study</span>
+                        <img src="https://images.unsplash.com/photo-1761839257946-4616bcfafec7?w=500&amp;q=80" alt="A grower inspecting plants inside an aeroponic greenhouse" loading="lazy" />
+                    </div>
+                    <p class="resource-card__title">Aeroponics Case Study</p>
+                    <p class="resource-card__desc">How aeroponics improved yield by 40% for a commercial farm.</p>
+                    <a href="#" class="resource-card__action">Read More <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-card__photo">
+                        <span class="resource-card__badge resource-card__badge--webinar">Webinar</span>
+                        <img src="https://images.unsplash.com/photo-1657664042448-c955b411d9d0?w=500&amp;q=80" alt="A grower speaking inside a greenhouse during a recorded masterclass" loading="lazy" />
+                    </div>
+                    <p class="resource-card__title">Masterclass: Scaling Your Farm</p>
+                    <p class="resource-card__desc">Watch the full masterclass on scaling operations profitably.</p>
+                    <a href="#" class="resource-card__action">Watch Now <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="resource-card">
+                    <div class="resource-card__photo">
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&amp;q=80" alt="A printed farm planning checklist resting on a clipboard" loading="lazy" />
+                    </div>
+                    <p class="resource-card__title">Farm Planning Checklist</p>
+                    <p class="resource-card__desc">Use our checklist to plan every step of your farm setup.</p>
+                    <a href="#" class="resource-card__action">Download <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                            Tools & Calculators
+    ============================================================ -->
+    <section class="tools-section" id="tools" aria-label="Tools and calculators">
+        <div class="tools-section__inner flex items-start">
+            <div class="tools-section__intro">
+                <h2 class="tools-section__title">Tools &amp; Calculators</h2>
+                <p class="tools-section__desc">Smart tools to help you plan, analyze and maximize your farm's potential.</p>
+                <a href="#" class="btn btn--dark">
+                    View All Tools
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="tools-grid grid grid-cols-2 gap-4 md:grid-cols-4">
+                <article class="tool-card">
+                    <div class="tool-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
+                            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 11 13 11 11" />
+                        </svg>
+                    </div>
+                    <h3 class="tool-card__title">Yield Calculator</h3>
+                    <p class="tool-card__desc">Estimate potential yield based on crop, area and growing conditions.</p>
+                    <a href="#" class="tool-card__link">Use Tool <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="tool-card">
+                    <div class="tool-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2s7 8 7 13a7 7 0 0 1-14 0c0-5 7-13 7-13z" />
+                        </svg>
+                    </div>
+                    <h3 class="tool-card__title">Water Savings Calculator</h3>
+                    <p class="tool-card__desc">Calculate how much water you can save with vertical farming.</p>
+                    <a href="#" class="tool-card__link">Use Tool <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="tool-card">
+                    <div class="tool-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 7v10M9 9.5c0-1.4 1.3-2.5 3-2.5s3 1.1 3 2.5-1.3 2-3 2.5-3 1.1-3 2.5 1.3 2.5 3 2.5 3-1.1 3-2.5" />
+                        </svg>
+                    </div>
+                    <h3 class="tool-card__title">ROI Calculator</h3>
+                    <p class="tool-card__desc">Estimate return on investment for your vertical farm.</p>
+                    <a href="#" class="tool-card__link">Use Tool <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+
+                <article class="tool-card">
+                    <div class="tool-card__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 11 14 11 22 21 10 13 10 13 2" />
+                        </svg>
+                    </div>
+                    <h3 class="tool-card__title">Energy Calculator</h3>
+                    <p class="tool-card__desc">Calculate energy usage and optimize costs for your setup.</p>
+                    <a href="#" class="tool-card__link">Use Tool <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+                            Contact Banner
+    ============================================================ -->
+    <section class="contact-banner" aria-label="Contact us">
+        <div class="contact-banner__inner">
+            <div class="contact-banner__box flex items-center">
+                <div class="contact-banner__text">
+                    <p class="contact-banner__eyebrow">Still Have Questions?</p>
+                    <h2 class="contact-banner__title">We're Here to Help</h2>
+                    <p class="contact-banner__desc">Our team is ready to support you on your growing journey.</p>
+                    <a href="#" class="btn btn--primary">
+                        Contact Us
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <polyline points="12 5 19 12 12 19" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="contact-banner__image">
+                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=700&amp;q=80" alt="A young seedling sprouting from rich soil" loading="lazy" />
+                </div>
+
+                <div class="contact-banner__list">
+                    <div class="contact-item flex items-start gap-3">
+                        <span class="contact-item__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m22 6-10 7L2 6" />
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="contact-item__label">Email Us</p>
+                            <p class="contact-item__value">hello@agrotonomy.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item flex items-start gap-3">
+                        <span class="contact-item__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="contact-item__label">Call Us</p>
+                            <p class="contact-item__value">+91 98765 43210</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item flex items-start gap-3">
+                        <span class="contact-item__icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                            </svg>
+                        </span>
+                        <div>
+                            <p class="contact-item__label">Live Chat</p>
+                            <p class="contact-item__value">Available Mon – Fri, 9AM – 6PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script>
+    function initResourceCardReveal() {
+        const cards = document.querySelectorAll(".resource-card, .category-card, .tool-card");
+        if (!cards.length) return;
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = "translateY(0)";
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.15
+            },
+        );
+
+        cards.forEach((el) => {
+            el.style.opacity = 0;
+            el.style.transform = "translateY(16px)";
+            el.style.transition = "opacity 0.5s ease, transform 0.5s ease";
+            observer.observe(el);
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", initResourceCardReveal);
+</script>
+
+
+
+
+       <!-- ============================================================
+                               Newsletter
+        ============================================================ -->
+    <section class="newsletter-section" aria-label="Newsletter signup">
+      <div class="newsletter-section__inner flex items-center gap-8">
+        <div class="newsletter-section__image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=75"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div class="newsletter-section__content">
+          <h2 class="newsletter-section__title">Sign up to our newsletter</h2>
+          <p class="newsletter-section__desc">
+            Get our updates straight to your inbox.
+          </p>
+          <form class="newsletter-form flex items-center gap-2" novalidate>
+            <label for="newsletter-email" class="sr-only"
+              >Your email address</label
+            >
+            <input
+              type="email"
+              id="newsletter-email"
+              class="newsletter-form__input"
+              placeholder="Enter your email"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn--subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+                           Footer Section   
+    ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__top">
+        <div class="site-footer__top-inner flex items-center justify-between">
+          <a
+            href="index.php"
+            class="site-logo flex items-center gap-2"
+            aria-label="Agrotonomy Home"
+          >
+            <div class="site-logo__icon">
+              <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+                <path
+                  d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                  fill="#fff"
+                  opacity="0.3"
+                />
+                <path
+                  d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                  fill="#ffb800"
+                />
+                <circle cx="20" cy="20" r="3" fill="#fff" />
+              </svg>
+            </div>
+            <span class="site-logo__text site-logo__text--footer"
+              >AGROTONOMY</span
+            >
+          </a>
+          <div class="site-footer__social flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <rect
+                  x="2"
+                  y="2"
+                  width="20"
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="white" /></svg
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              aria-label="TikTok"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.33 6.33 0 006.33-6.33V7.5a4.83 4.83 0 01-2.66-.81z"
+                /></svg
+            ></a>
+            <a
+              href="mailto:info@agrotonomy.com"
+              target="_blank"
+              aria-label="email"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <polyline
+                  points="22,6 12,13 2,6"
+                  stroke="white"
+                  stroke-width="2"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__nav-bar">
+        <div
+          class="site-footer__nav-inner flex items-center justify-center flex-wrap gap-4"
+        >
+          <a href="index.php" class="footer-link">Home</a>
+          <a href="tower-garden.php" class="footer-link">Tower Garden</a>
+          <a href="tower-farms.php" class="footer-link">Tower Farms</a>
+          <a href="education.php" class="footer-link">Education</a>
+          <a href="resources.php" class="footer-link">Resources</a>
+          <a href="about.php" class="footer-link">About Us</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="site-footer__copyright">
+        <p>© Agrotonomy Corp 2025 · All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+                            Script Links  
+    ============================================================ -->
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

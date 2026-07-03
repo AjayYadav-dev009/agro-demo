@@ -1,0 +1,1004 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrotonomy - Aeroponic Tower Farms</title>
+    <!-- ============================================================
+                              LINKS
+    ============================================================ -->
+    <link rel="stylesheet" href="assets/src/output.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ============================================================
+                              TOP BAR
+    ============================================================ -->
+    <div class="top-bar">
+      <div class="top-bar__inner flex items-center justify-end gap-4">
+        <div class="top-bar__social flex items-center gap-3">
+          <a href="#" aria-label="Facebook" class="top-bar__icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M22 5.8c-.6.3-1.3.5-2 .6.7-.4 1.3-1.1 1.6-1.9-.7.4-1.5.7-2.3.9A3.6 3.6 0 0 0 16.6 4c-2 0-3.6 1.6-3.6 3.6 0 .3 0 .6.1.8-3-.2-5.8-1.6-7.6-3.8-.3.5-.5 1.1-.5 1.8 0 1.2.6 2.3 1.6 2.9-.6 0-1.1-.2-1.6-.4v.1c0 1.7 1.2 3.2 2.9 3.5-.3.1-.6.1-.9.1-.2 0-.4 0-.7-.1.5 1.5 1.9 2.6 3.5 2.6A7.2 7.2 0 0 1 4 18.3 10.2 10.2 0 0 0 9.5 20c6.6 0 10.3-5.5 10.3-10.3v-.5c.7-.5 1.3-1.1 1.8-1.8z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M20.52 3.48A11.86 11.86 0 0 0 12.04 0C5.4 0 0 5.4 0 12.04c0 2.12.55 4.2 1.6 6.03L0 24l6.1-1.6a12 12 0 0 0 5.94 1.52h.01C18.6 23.92 24 18.52 24 11.96c0-3.2-1.25-6.2-3.48-8.48zm-8.48 18.4a9.92 9.92 0 0 1-5.05-1.39l-.36-.21-3.62.95.97-3.53-.24-.37A9.88 9.88 0 1 1 12.04 21.88zm5.45-7.42c-.3-.15-1.77-.88-2.05-.98-.27-.1-.47-.15-.67.15s-.77.98-.95 1.18c-.17.2-.35.23-.65.08a8.1 8.1 0 0 1-2.39-1.47 8.95 8.95 0 0 1-1.66-2.07c-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.08-.8.38-.28.3-1.06 1.04-1.06 2.54 0 1.5 1.09 2.95 1.24 3.15.15.2 2.14 3.28 5.18 4.6.72.31 1.28.49 1.72.63.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.18-1.42-.08-.12-.28-.2-.58-.35z"
+              />
+            </svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="top-bar__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm9.5 1a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"
+              />
+            </svg>
+          </a>
+        </div>
+        <!-- <div class="top-bar__lang flex items-center gap-2">
+                <span class="top-bar__flag">🇫🇷</span>
+                <span class="top-bar__flag">🇪🇸</span>
+                <span class="top-bar__flag">🇩🇪</span>
+                <span class="top-bar__flag">🇮🇹</span>
+                <span class="top-bar__flag">🇵🇹</span>
+                <span class="top-bar__lang-active">🌐 English</span>
+            </div> -->
+        <a href="admin/login.php" class="top-bar__login">🔑 Login</a>
+      </div>
+    </div>
+
+    <!-- ============================================================
+                              NAVBAR & MOBILE NAV
+    ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="site-header__inner flex items-center justify-between">
+        <a
+          href="index.html"
+          class="site-logo flex items-center gap-2"
+          aria-label="Agrotonomy Home"
+        >
+          <div class="site-logo__icon">
+            <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+              <path
+                d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                fill="#fff"
+                opacity="0.3"
+              />
+              <path
+                d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                fill="#ffb800"
+              />
+              <circle cx="20" cy="20" r="3" fill="#fff" />
+            </svg>
+          </div>
+          <span class="site-logo__text">AGROTONOMY</span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul class="main-nav__list flex items-center gap-1">
+            <li><a href="index.html" class="main-nav__link">Home</a></li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-garden.html" class="main-nav__link"
+                >Tower Garden <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="tower-for-homes.html">For Homes</a></li>
+                <li><a href="tower-for-schools.html">For Schools</a></li>
+                <li><a href="tower-for-restaurants.html">For Restaurants</a></li>
+              </ul>
+            </li>
+            <li class="main-nav__item--dropdown">
+              <a href="tower-farms.html" class="main-nav__link"
+                >Tower Farms <span class="nav-arrow">▾</span></a
+              >
+              <ul class="main-nav__dropdown">
+                <li><a href="small-farms.html">Small Farms</a></li>
+                <li><a href="large-farms.html">Large Farms</a></li>
+                <li><a href="greenhouse.html">Greenhouse</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="education.html" class="main-nav__link">Education</a>
+            </li>
+            <li>
+              <a href="resources.html" class="main-nav__link">Resources</a>
+            </li>
+            <li><a href="about.html" class="main-nav__link">About Us</a></li>
+            <li><a href="contact.html" class="main-nav__link">Contact</a></li>
+          </ul>
+        </nav>
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <!-- Mobile Nav -->
+      <nav
+        class="mobile-nav"
+        id="mobileNav"
+        aria-label="Mobile navigation"
+        aria-hidden="true"
+      >
+        <ul class="mobile-nav__list">
+          <li><a href="index.html" class="mobile-nav__link">Home</a></li>
+          <li>
+            <a href="tower-garden.html" class="mobile-nav__link">Tower Garden</a>
+          </li>
+          <li>
+            <a href="tower-farms.html" class="mobile-nav__link">Tower Farms</a>
+          </li>
+          <li>
+            <a href="education.html" class="mobile-nav__link">Education</a>
+          </li>
+          <li>
+            <a href="resources.html" class="mobile-nav__link">Resources</a>
+          </li>
+          <li><a href="about.html" class="mobile-nav__link">About Us</a></li>
+          <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+<style>
+  /* ============================================================
+   ABOUT HERO
+   ============================================================ */
+  .about-hero {
+    padding: var(--space-2xl) 0 var(--space-xl);
+    background: var(--color-white);
+  }
+
+  .about-hero__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    gap: var(--space-2xl);
+  }
+
+  .about-hero__text {
+    flex: 0 0 38%;
+    max-width: 38%;
+  }
+
+  .about-hero__image {
+    flex: 1;
+  }
+
+  .about-hero__image img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+  }
+
+  .about-hero__eyebrow {
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    color: var(--color-brand);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: var(--space-md);
+  }
+
+  .about-hero__headline {
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    color: var(--color-text-dark);
+    line-height: 1.1;
+    margin-bottom: var(--space-md);
+  }
+
+  .about-hero__headline--accent {
+    color: var(--color-accent);
+  }
+
+  .about-hero__desc {
+    font-size: var(--font-size-base);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+    max-width: 360px;
+  }
+
+  /* ============================================================
+   STATS BANNER
+   ============================================================ */
+  .stats-banner {
+    padding: var(--space-2xl) 0;
+    background: var(--color-white);
+  }
+
+  .stats-banner__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+
+  .stats-grid {
+    background: var(--color-brand-dark);
+    background-image: radial-gradient(ellipse at center, var(--color-brand-mid), var(--color-brand-light));
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl) var(--space-lg);
+  }
+
+  .stat-item {
+    text-align: center;
+    position: relative;
+    padding: 0 var(--space-sm);
+  }
+
+  .stat-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10%;
+    bottom: 10%;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .stat-item:first-child::before {
+    display: none;
+  }
+
+  .stat-item__icon {
+    width: 44px;
+    height: 44px;
+    margin: 0 auto var(--space-sm);
+    border-radius: 50%;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stat-item__label {
+    font-size: var(--font-size-xs);
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 6px;
+  }
+
+  .stat-item__value {
+    font-size: var(--font-size-2xl);
+    font-weight: 800;
+    color: var(--color-accent);
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+
+  .stat-item__sublabel {
+    font-size: var(--font-size-xs);
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  /* ============================================================
+   OUR STORY
+   ============================================================ */
+  .story-section {
+    padding: var(--space-xl) 0 var(--space-2xl);
+    background: var(--color-white);
+  }
+
+  .story-section__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    gap: var(--space-2xl);
+  }
+
+  .story-section__text {
+    flex: 0 0 36%;
+    max-width: 36%;
+  }
+
+  .story-section__image {
+    flex: 1;
+  }
+
+  .story-section__image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+  }
+
+  .story-section__title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-brand);
+    margin-bottom: var(--space-md);
+  }
+
+  .story-section__paragraph {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: var(--space-md);
+  }
+
+  /* ============================================================
+   OUR VALUES
+   ============================================================ */
+  .values-section {
+    padding: var(--space-2xl) 0;
+    background: var(--color-white);
+  }
+
+  .values-section__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg);
+    background: var(--color-off-white);
+    border-radius: var(--radius-lg);
+  }
+
+  .values-section__title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-brand-dark);
+    text-align: center;
+    margin-bottom: var(--space-xl);
+  }
+
+  .value-card {
+    text-align: center;
+    padding: 0 var(--space-sm);
+  }
+
+  .value-card__icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto var(--space-md);
+    border-radius: 50%;
+    background: var(--color-icon-bg);
+    color: var(--color-brand);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .value-card__title {
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-sm);
+  }
+
+  .value-card__desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  /* ============================================================
+   TEAM SECTION
+   ============================================================ */
+  .team-section {
+    padding: var(--space-2xl) 0 var(--space-3xl);
+    background: var(--color-white);
+  }
+
+  .team-section__inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+
+  .team-section__intro {
+    flex: 0 0 26%;
+    max-width: 26%;
+  }
+
+  .team-section__title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-brand-dark);
+    margin-bottom: var(--space-md);
+    line-height: 1.25;
+  }
+
+  .team-section__desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: var(--space-lg);
+  }
+
+  .team-section__tagline {
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--color-text-dark);
+    line-height: 1.5;
+  }
+
+  .team-section__tagline--accent {
+    color: var(--color-accent);
+  }
+
+  .team-grid {
+    flex: 1;
+  }
+
+  .team-card {
+    text-align: center;
+  }
+
+  .team-card__photo {
+    aspect-ratio: 1;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    margin-bottom: var(--space-sm);
+    box-shadow: var(--shadow-card);
+  }
+
+  .team-card__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+  }
+
+  .team-card:hover .team-card__photo img {
+    transform: scale(1.05);
+  }
+
+  .team-card__name {
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    color: var(--color-text-dark);
+    margin-bottom: 2px;
+  }
+
+  .team-card__role {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+  }
+
+  /* ============================================================
+   RESPONSIVE
+   ============================================================ */
+  @media (max-width: 1024px) {
+    .about-hero__headline {
+      font-size: var(--font-size-2xl);
+    }
+
+    .stat-item__value {
+      font-size: var(--font-size-xl);
+    }
+  }
+
+  @media (max-width: 900px) {
+    .about-hero__inner {
+      flex-direction: row;
+    }
+
+    .about-hero__text {
+      flex: unset;
+      max-width: 100%;
+    }
+
+    .about-hero__image {
+      flex: unset;
+      width: 100%;
+    }
+
+    .story-section__text {
+      flex: unset;
+      max-width: 100%;
+    }
+
+    .story-section__image {
+      flex: unset;
+      width: 100%;
+    }
+
+    .story-section__image img {
+      height: 260px;
+    }
+
+    .team-section__inner {
+      flex-direction: column;
+    }
+
+    .team-section__intro {
+      flex: unset;
+      max-width: 100%;
+      margin-bottom: var(--space-lg);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+      row-gap: var(--space-xl) !important;
+    }
+
+    .stat-item:nth-child(3)::before {
+      display: none;
+    }
+
+    .values-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+      row-gap: var(--space-xl) !important;
+    }
+
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .about-hero__headline {
+      font-size: var(--font-size-xl);
+    }
+
+    .about-hero__image img {
+      height: 240px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about-hero__inner {
+      flex-direction: column-reverse;
+    }
+
+    .story-section__inner {
+      flex-direction: column-reverse;
+    }
+
+    .stats-grid {
+      grid-template-columns: 1fr !important;
+    }
+
+    .stat-item::before {
+      display: none;
+    }
+
+    .values-grid {
+      grid-template-columns: 1fr !important;
+    }
+
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+</style>
+
+<main id="main-content">
+
+  <!-- ============================================================
+                            Hero Section  
+    ============================================================ -->
+  <section class="about-hero" aria-label="About introduction">
+    <div class="about-hero__inner flex items-center">
+      <div class="about-hero__text">
+        <p class="about-hero__eyebrow">About Us</p>
+        <h1 class="about-hero__headline">Growing a<br />Sustainable<br /><span class="about-hero__headline--accent">Tomorrow.</span></h1>
+        <p class="about-hero__desc">Agrotonomy is on a mission to transform the future of agriculture through innovative vertical farming and greenhouse solutions.</p>
+        <p class="about-hero__desc">We help individuals, businesses and communities grow more with less – using technology, education and sustainable practices.</p>
+      </div>
+      <div class="about-hero__image">
+        <img src="https://images.unsplash.com/photo-1585664811087-47f65abbad64?w=900&q=80" alt="Rows of leafy greens growing inside an Agrotonomy greenhouse" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+                              Stat Baner
+    ============================================================ -->
+  <section class="stats-banner" aria-label="Company statistics">
+    <div class="stats-banner__inner">
+      <div class="stats-grid grid grid-cols-2 gap-6 md:grid-cols-4">
+        <div class="stat-item">
+          <div class="stat-item__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 11 13 11 11" />
+            </svg>
+          </div>
+          <p class="stat-item__value">250+</p>
+          <p class="stat-item__label">Projects Completed</p>
+          <p class="stat-item__sublabel">Worldwide</p>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-item__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <p class="stat-item__value">10K+</p>
+          <p class="stat-item__label">Happy Clients</p>
+          <p class="stat-item__sublabel">And Growing</p>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-item__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2c0 0-7 7.5-7 12.5a7 7 0 0 0 14 0C19 9.5 12 2 12 2z" />
+            </svg>
+          </div>
+          <p class="stat-item__value">95%</p>
+          <p class="stat-item__label">Water Saved</p>
+          <p class="stat-item__sublabel">Compared to Soil Farming</p>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-item__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+          </div>
+          <p class="stat-item__value">25+</p>
+          <p class="stat-item__label">Countries Reached</p>
+          <p class="stat-item__sublabel">And Expanding</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+                              Our Story
+    ============================================================ -->
+  <section class="story-section" aria-label="Our story">
+    <div class="story-section__inner flex items-center gap-6">
+      <div class="story-section__text">
+        <h2 class="story-section__title">Our Story</h2>
+        <p class="story-section__paragraph">Agrotonomy was born out of a simple idea – to make fresh, healthy food accessible everywhere while using fewer natural resources.</p>
+        <p class="story-section__paragraph">From our early days of building our first tower farms to working on large-scale greenhouse projects, our focus has remained the same: innovation, sustainability and impact.</p>
+        <p class="story-section__paragraph">Today, we're proud to be a global partner in the journey toward a greener future.</p>
+      </div>
+      <div class="story-section__image">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=80" alt="A young seedling sprouting from soil in a planting tray" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+                              Our Values
+    ============================================================ -->
+  <section class="values-section" aria-label="Our values">
+    <div class="values-section__inner">
+      <h2 class="values-section__title">Our Values</h2>
+      <div class="values-grid grid grid-cols-2 gap-6 md:grid-cols-4">
+        <article class="value-card">
+          <div class="value-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 11 13 11 11" />
+            </svg>
+          </div>
+          <h3 class="value-card__title">Sustainability</h3>
+          <p class="value-card__desc">We use fewer resources to create a better future for generations to come.</p>
+        </article>
+
+        <article class="value-card">
+          <div class="value-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18h6" />
+              <path d="M10 22h4" />
+              <path d="M12 2a7 7 0 0 0-4 12.7c.5.4.8 1 .9 1.6L9 18h6l.1-1.7c.1-.6.4-1.2.9-1.6A7 7 0 0 0 12 2z" />
+            </svg>
+          </div>
+          <h3 class="value-card__title">Innovation</h3>
+          <p class="value-card__desc">We embrace technology and creative solutions to solve real challenges.</p>
+        </article>
+
+        <article class="value-card">
+          <div class="value-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3 class="value-card__title">Education</h3>
+          <p class="value-card__desc">We empower people with knowledge to grow, learn and succeed.</p>
+        </article>
+
+        <article class="value-card">
+          <div class="value-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 17l-5-5a3.5 3.5 0 0 1 5-5l1 1" />
+              <path d="M13 17l5-5a3.5 3.5 0 0 0-5-5l-1 1" />
+              <path d="M2 14l3 3" />
+              <path d="M19 14l3 3" />
+            </svg>
+          </div>
+          <h3 class="value-card__title">Integrity</h3>
+          <p class="value-card__desc">We build trust through transparency, quality and commitment.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+                              Team Section
+    ============================================================ -->
+  <section class="team-section" aria-label="Our team">
+    <div class="team-section__inner flex items-start gap-8">
+      <div class="team-section__intro">
+        <h2 class="team-section__title">The People<br />Behind Agrotonomy</h2>
+        <p class="team-section__desc">Our team is made up of farmers, engineers, designers, educators and dreamers who are passionate about changing the way the world grows food.</p>
+        <p class="team-section__tagline">Different skills. One goal.<br /><span class="team-section__tagline--accent">A better tomorrow.</span></p>
+      </div>
+      <div class="team-grid grid grid-cols-2 gap-4 md:grid-cols-4">
+        <article class="team-card">
+          <div class="team-card__photo">
+            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&q=80" alt="Portrait of Rohan Mehta" loading="lazy" />
+          </div>
+          <p class="team-card__name">Rohan Mehta</p>
+          <p class="team-card__role">Co-Founder &amp; CEO</p>
+        </article>
+        <article class="team-card">
+          <div class="team-card__photo">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Portrait of Ananya Sharma" loading="lazy" />
+          </div>
+          <p class="team-card__name">Ananya Sharma</p>
+          <p class="team-card__role">Co-Founder &amp; COO</p>
+        </article>
+        <article class="team-card">
+          <div class="team-card__photo">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Portrait of Arjun Patel" loading="lazy" />
+          </div>
+          <p class="team-card__name">Arjun Patel</p>
+          <p class="team-card__role">Head of Engineering</p>
+        </article>
+        <article class="team-card">
+          <div class="team-card__photo">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80" alt="Portrait of Meera Iyer" loading="lazy" />
+          </div>
+          <p class="team-card__name">Meera Iyer</p>
+          <p class="team-card__role">Head of Education</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+  function initStatCounters() {
+    const statValues = document.querySelectorAll(".stat-item__value");
+    if (!statValues.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateStatValue(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.4
+      },
+    );
+
+    statValues.forEach((el) => observer.observe(el));
+  }
+
+  function animateStatValue(el) {
+    const rawText = el.textContent.trim();
+    const match = rawText.match(/^(\d+)(.*)$/);
+    if (!match) return;
+
+    const targetNum = parseInt(match[1], 10);
+    const suffix = match[2];
+    const duration = 1200;
+    const startTime = performance.now();
+
+    function step(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(targetNum * eased);
+      el.textContent = `${current}${suffix}`;
+
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        el.textContent = rawText;
+      }
+    }
+
+    requestAnimationFrame(step);
+  }
+</script>
+
+
+
+
+
+
+       <!-- ============================================================
+                               Newsletter
+        ============================================================ -->
+    <section class="newsletter-section" aria-label="Newsletter signup">
+      <div class="newsletter-section__inner flex items-center gap-8">
+        <div class="newsletter-section__image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=200&q=75"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div class="newsletter-section__content">
+          <h2 class="newsletter-section__title">Sign up to our newsletter</h2>
+          <p class="newsletter-section__desc">
+            Get our updates straight to your inbox.
+          </p>
+          <form class="newsletter-form flex items-center gap-2" novalidate>
+            <label for="newsletter-email" class="sr-only"
+              >Your email address</label
+            >
+            <input
+              type="email"
+              id="newsletter-email"
+              class="newsletter-form__input"
+              placeholder="Enter your email"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn--subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+                           Footer Section   
+    ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="site-footer__top">
+        <div class="site-footer__top-inner flex items-center justify-between">
+          <a
+            href="index.php"
+            class="site-logo flex items-center gap-2"
+            aria-label="Agrotonomy Home"
+          >
+            <div class="site-logo__icon">
+              <svg width="32" height="32" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="20" r="20" fill="#2d5a27" />
+                <path
+                  d="M20 8c0 0-8 4-8 12s8 12 8 12 8-4 8-12-8-12-8-12z"
+                  fill="#fff"
+                  opacity="0.3"
+                />
+                <path
+                  d="M20 12c0 0-5 3-5 8s5 8 5 8 5-3 5-8-5-8-5-8z"
+                  fill="#ffb800"
+                />
+                <circle cx="20" cy="20" r="3" fill="#fff" />
+              </svg>
+            </div>
+            <span class="site-logo__text site-logo__text--footer"
+              >AGROTONOMY</span
+            >
+          </a>
+          <div class="site-footer__social flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              aria-label="Instagram"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <rect
+                  x="2"
+                  y="2"
+                  width="20"
+                  height="20"
+                  rx="5"
+                  ry="5"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="white" /></svg
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.tiktok.com/"
+              target="_blank"
+              aria-label="TikTok"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                <path
+                  d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.33 6.33 0 006.33-6.33V7.5a4.83 4.83 0 01-2.66-.81z"
+                /></svg
+            ></a>
+            <a
+              href="mailto:info@agrotonomy.com"
+              target="_blank"
+              aria-label="email"
+              ><svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <polyline
+                  points="22,6 12,13 2,6"
+                  stroke="white"
+                  stroke-width="2"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__nav-bar">
+        <div
+          class="site-footer__nav-inner flex items-center justify-center flex-wrap gap-4"
+        >
+          <a href="index.php" class="footer-link">Home</a>
+          <a href="tower-garden.php" class="footer-link">Tower Garden</a>
+          <a href="tower-farms.php" class="footer-link">Tower Farms</a>
+          <a href="education.php" class="footer-link">Education</a>
+          <a href="resources.php" class="footer-link">Resources</a>
+          <a href="about.php" class="footer-link">About Us</a>
+          <a href="contact.php" class="footer-link">Contact</a>
+        </div>
+      </div>
+      <div class="site-footer__copyright">
+        <p>© Agrotonomy Corp 2025 · All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+                            Script Links  
+    ============================================================ -->
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>
